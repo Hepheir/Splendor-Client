@@ -1,0 +1,202 @@
+@keyframes slot-active {
+    0% {
+        border-color: rgba(4, 154, 254, 0.8);
+        background-color: rgba(0, 89, 148, 0.4);
+    }
+
+    40% {
+        border-color: rgba(0,0,0,0.5);
+        background-color: rgba(0, 89, 148, 0.4);
+    }
+
+    60% {
+        border-color: rgba(0,0,0,0.5);
+        background-color: rgba(0, 89, 148, 0.4);
+    }
+
+    100% {
+        border-color: rgba(4, 154, 254, 0.8);
+        background-color: rgba(0, 89, 148, 0.4);
+    }
+}
+
+.player {
+    width: 800px;
+    height: 120px;
+
+    margin: 0 auto;
+    padding: 8px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.players .slot {
+    width: 174px;
+    height: 120px;
+
+    margin: 0 8px;
+    padding: 8px;
+
+    border-width: 1px;
+    border-style: solid;
+    border-color: gray;
+    border-radius: 4px;
+
+    position: relative;
+
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.players .slot.is_active {
+    padding: 7px;
+    border-width: 2px;
+
+    animation-name: slot-active;
+    animation-direction: normal;
+    animation-duration: 1.5s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+}
+
+.players .slot .name {
+    height: 14px;
+
+    margin-bottom: 8px;
+
+    font-size: 14px;
+    line-height: 14px;
+}
+
+.players .slot .score {
+    height: 14px;
+
+    position: absolute;
+    top: 8px;
+    right: 8px;
+
+    font-size: 12px;
+    line-height: 14px;
+}
+
+.players .slot .card-list,
+.players .slot .coin-list {
+    width: 100%;
+    height: 24px;
+}
+
+.players .slot .card-list .card {
+    width: 18px;
+    height: 24px;
+
+    margin: 0 4px;
+
+    display: inline-block;
+
+    position: relative;
+
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 25%;
+}
+
+.players .slot .card-list .card.depleted,
+.players .slot .coin-list .coin.depleted {
+    opacity: 0.25;
+}
+
+.players .slot .card-list .card .number {
+    width: 20px;
+    height: 20px;
+
+    position: absolute;
+    left: -2px;
+}
+
+.players .slot .coin-list .coin {
+    width: 18px;
+    height: 24px;
+
+    margin: 0 4px;
+
+    display: inline-block;
+
+    position: relative;
+}
+
+.players .slot .coin-list .coin .number {
+    width: 20px;
+    height: 20px;
+
+    position: absolute;
+    top: -2px;
+    left: -1px;
+}
+
+.players .slot .coin-list .coin .coin-bg {
+    width: 18px;
+    height: 12px;
+
+    position: absolute;
+    left: 0;
+    bottom: 2px;
+}
+
+
+.players .slot .reserve-list {
+    width: 60px;
+    height: 24px;
+
+    margin-top: 8px;
+}
+
+.players .slot .reserve-list .reserve {
+    width: 18px;
+    height: 24px;
+
+    margin-right: 2px;
+
+    display: inline-block;
+
+    border-width: 1px;
+    border-style: solid;
+    border-color: gray;
+    border-radius: 2px;
+}
+
+.players .slot .reserve-list .reserve.depleted {
+    border-style: dashed;
+    border-color: #000;
+}
+
+.players .slot .tile-list {
+    height: 20px;
+
+    position: absolute;
+    right: 8px;
+    bottom: 8px;
+}
+
+.players .slot .tile-list .tile {
+    width: 20px;
+    height: 20px;
+
+    margin-left: 2px;
+
+    display: inline-block;
+
+    border-width: 1px;
+    border-style: solid;
+    border-color: gray;
+    border-radius: 2px;
+}
+
+.players .slot .join-button {
+    width: 120px;
+    height: 24px;
+
+    position: absolute;
+    top: 4px;
+    left: 4px;
+}

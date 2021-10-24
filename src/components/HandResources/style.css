@@ -1,0 +1,91 @@
+.hand-resources {
+    width: 570px;
+    height: 144px;
+
+    margin: auto;
+    padding: 8px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.hand-resources > .slot {
+    width: 82px;
+    height: 56px;
+
+    padding: 4px;
+
+    border-width: 2px;
+    border-style: solid;
+    border-color: #000;
+    border-radius: 8px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    position: relative;
+
+    flex-shrink: 0;
+
+    cursor: pointer;
+}
+
+.hand-resources > .slot > .coins {
+    width: 32px;
+    height: 44px;
+
+    position: relative;
+
+    flex-shrink: 0;
+}
+.hand-resources > .slot > .coins.depleted {
+    opacity: 0.5;
+}
+
+.hand-resources > .slot > .coins > .coin {
+    width: 32px;
+    height: 20px;
+
+    border-radius: 50%;
+
+    position: absolute;
+    left: 0;
+    bottom: 0;
+
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.75);
+}
+
+.hand-resources > .slot > .coins > .count {
+    width: 32px;
+    height: 32px;
+
+    position: absolute;
+    top: 4px;
+    left: 0;
+}
+
+
+.hand-resources > .slot > .cards {
+    width: 32px;
+    height: 44px;
+
+    border-width: 1px;
+    border-style: solid;
+    border-color: inherit;
+    border-radius: 4px;
+
+    position: relative;
+
+    flex-shrink: 0;
+}
+
+.hand-resources > .slot > .cards > .count {
+    width: 32px;
+    height: 32px;
+
+    position: absolute;
+    top: 5px;
+    left: -1px;
+}

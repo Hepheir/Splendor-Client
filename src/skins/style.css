@@ -1,0 +1,364 @@
+.skin {
+    background-size: 100% 100%;
+}
+
+.skin.cardcosts-1 {
+    background-image: url('./basic/cardcosts/1.png');
+}
+
+.skin.cardcosts-2 {
+    background-image: url('./basic/cardcosts/2.png');
+}
+
+.skin.cardcosts-3 {
+    background-image: url('./basic/cardcosts/3.png');
+}
+
+.skin.cardcosts-4 {
+    background-image: url('./basic/cardcosts/4.png');
+}
+
+.skin.cardcosts-5 {
+    background-image: url('./basic/cardcosts/5.png');
+}
+
+.skin.card-background-1 {
+    background-image: url('./basic/cards/1.jpg');
+}
+
+.skin.card-background-10 {
+    background-image: url('./basic/cards/10.jpg');
+}
+
+.skin.card-background-11 {
+    background-image: url('./basic/cards/11.jpg');
+}
+
+.skin.card-background-12 {
+    background-image: url('./basic/cards/12.jpg');
+}
+
+.skin.card-background-13 {
+    background-image: url('./basic/cards/13.jpg');
+}
+
+.skin.card-background-14 {
+    background-image: url('./basic/cards/14.jpg');
+}
+
+.skin.card-background-15 {
+    background-image: url('./basic/cards/15.jpg');
+}
+
+.skin.card-background-16 {
+    background-image: url('./basic/cards/16.jpg');
+}
+
+.skin.card-background-17 {
+    background-image: url('./basic/cards/17.jpg');
+}
+
+.skin.card-background-18 {
+    background-image: url('./basic/cards/18.jpg');
+}
+
+.skin.card-background-19 {
+    background-image: url('./basic/cards/19.jpg');
+}
+
+.skin.card-background-2 {
+    background-image: url('./basic/cards/2.jpg');
+}
+
+.skin.card-background-20 {
+    background-image: url('./basic/cards/20.jpg');
+}
+
+.skin.card-background-21 {
+    background-image: url('./basic/cards/21.jpg');
+}
+
+.skin.card-background-22 {
+    background-image: url('./basic/cards/22.jpg');
+}
+
+.skin.card-background-23 {
+    background-image: url('./basic/cards/23.jpg');
+}
+
+.skin.card-background-24 {
+    background-image: url('./basic/cards/24.jpg');
+}
+
+.skin.card-background-25 {
+    background-image: url('./basic/cards/25.jpg');
+}
+
+.skin.card-background-26 {
+    background-image: url('./basic/cards/26.jpg');
+}
+
+.skin.card-background-27 {
+    background-image: url('./basic/cards/27.jpg');
+}
+
+.skin.card-background-28 {
+    background-image: url('./basic/cards/28.jpg');
+}
+
+.skin.card-background-3 {
+    background-image: url('./basic/cards/3.jpg');
+}
+
+.skin.card-background-4 {
+    background-image: url(https://avatars.githubusercontent.com/u/19310326?v=4);
+    /* background-image: url('./basic/cards/4.jpg'); */
+}
+
+.skin.card-background-5 {
+    background-image: url('./basic/cards/5.jpg');
+}
+
+.skin.card-background-6 {
+    background-image: url('./basic/cards/6.jpg');
+}
+
+.skin.card-background-7 {
+    background-image: url('./basic/cards/7.jpg');
+}
+
+.skin.card-background-8 {
+    background-image: url('./basic/cards/8.jpg');
+}
+
+.skin.card-background-9 {
+    background-image: url('./basic/cards/9.jpg');
+}
+
+.skin.coins-1 {
+    background-image: url('./basic/coins/1.png');
+}
+
+.skin.coins-2 {
+    background-image: url('./basic/coins/2.png');
+}
+
+.skin.coins-3 {
+    background-image: url('./basic/coins/3.png');
+}
+
+.skin.coins-4 {
+    background-image: url('./basic/coins/4.png');
+}
+
+.skin.coins-5 {
+    background-image: url('./basic/coins/5.png');
+}
+
+.skin.coins-6 {
+    background-image: url('./basic/coins/6.png');
+}
+
+.skin.numbers-1 {
+    background-image: url('./basic/numbers/1.png');
+}
+
+.skin.numbers-10 {
+    background-image: url('./basic/numbers/10.png');
+}
+
+.skin.numbers-2 {
+    background-image: url('./basic/numbers/2.png');
+}
+
+.skin.numbers-3 {
+    background-image: url('./basic/numbers/3.png');
+}
+
+.skin.numbers-4 {
+    background-image: url('./basic/numbers/4.png');
+}
+
+.skin.numbers-5 {
+    background-image: url('./basic/numbers/5.png');
+}
+
+.skin.numbers-6 {
+    background-image: url('./basic/numbers/6.png');
+}
+
+.skin.numbers-7 {
+    background-image: url('./basic/numbers/7.png');
+}
+
+.skin.numbers-8 {
+    background-image: url('./basic/numbers/8.png');
+}
+
+.skin.numbers-9 {
+    background-image: url('./basic/numbers/9.png');
+}
+
+.skin.tilecosts-1 {
+    background-image: url('./basic/tilecosts/1.png');
+}
+
+.skin.tilecosts-2 {
+    background-image: url('./basic/tilecosts/2.png');
+}
+
+.skin.tilecosts-3 {
+    background-image: url('./basic/tilecosts/3.png');
+}
+
+.skin.tilecosts-4 {
+    background-image: url('./basic/tilecosts/4.png');
+}
+
+.skin.tilecosts-5 {
+    background-image: url('./basic/tilecosts/5.png');
+}
+
+.skin.tilecosts-6 {
+    background-image: url('./basic/tilecosts/6.png');
+}
+
+.skin.tiles-1 {
+    background-image: url(https://avatars.githubusercontent.com/u/19310326?v=4);
+    /* background-image: url('./basic/tiles/1.jpg'); */
+}
+
+.skin.tiles-10 {
+    background-image: url('./basic/tiles/10.jpg');
+}
+
+.skin.tiles-2 {
+    background-image: url('./basic/tiles/2.jpg');
+}
+
+.skin.tiles-3 {
+    background-image: url('./basic/tiles/3.jpg');
+}
+
+.skin.tiles-4 {
+    background-image: url('./basic/tiles/4.jpg');
+}
+
+.skin.tiles-5 {
+    background-image: url('./basic/tiles/5.jpg');
+}
+
+.skin.tiles-6 {
+    background-image: url('./basic/tiles/6.jpg');
+}
+
+.skin.tiles-7 {
+    background-image: url('./basic/tiles/7.jpg');
+}
+
+.skin.tiles-8 {
+    background-image: url('./basic/tiles/8.jpg');
+}
+
+.skin.tiles-9 {
+    background-image: url('./basic/tiles/9.jpg');
+}
+
+/* GEMS */
+
+.skin.gem-1 {
+    background-image: url('./basic/gems/1.png');
+}
+
+.skin.gem-2 {
+    background-image: url('./basic/gems/2.png');
+}
+
+.skin.gem-3 {
+    background-image: url('./basic/gems/3.png');
+}
+
+.skin.gem-4 {
+    background-image: url('./basic/gems/4.png');
+}
+
+.skin.gem-5 {
+    background-image: url('./basic/gems/5.png');
+}
+
+.skin.gem-theme-1 {
+    background: radial-gradient(ellipse, #fff 30%, #cecfd1);
+    border-color: #000;
+}
+
+.skin.gem-theme-2 {
+    background: radial-gradient(ellipse, #5bcbf5 30%, #193180);
+    border-color: #000;
+}
+
+.skin.gem-theme-3 {
+    background: radial-gradient(ellipse, #80c341 30%, #006830);
+    border-color: #000;
+}
+
+.skin.gem-theme-4 {
+    background: radial-gradient(ellipse, #f36f21 30%, #a21b1f);
+    border-color: #000;
+}
+
+.skin.gem-theme-5 {
+    background: radial-gradient(ellipse, #000 30%, #413b3a);
+    border-color: gray;
+}
+
+.skin.gem-theme-6 {
+    background: radial-gradient(ellipse, rgb(245, 213, 70) 30%, #ad8e02);
+    border-color: #000;
+}
+
+@keyframes button-active {
+    0% {
+        border-color: rgba(4, 254, 17, 0.8);
+    }
+    40% {
+        border-color: rgba(0, 0, 0, 0.5);
+    }
+    60% {
+        border-color: rgba(0, 0, 0, 0.5);
+    }
+    100% {
+        border-color: rgba(4, 254, 17, 0.8);
+    }
+}
+
+.skin.button {
+    opacity: 0;
+
+    padding: 0;
+
+    border-width: 2px;
+    border-color: #000;
+    border-radius: 4px;
+
+    background: radial-gradient(ellipse, rgba(71, 221, 96, 0.8) 40%, rgb(92, 245, 113));
+
+    color: #FFF;
+    font-weight: 800;
+    text-align: center;
+    text-shadow: rgba(0,0,0,.5);
+
+    cursor: pointer;
+
+    animation-name: button-active;
+    animation-direction: normal;
+    animation-duration: 1.5s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+}
+.skin.button:hover {
+    background: rgb(92, 247, 112);
+}
+
+.skin.button:active {
+    background: rgb(61, 168, 76);
+}

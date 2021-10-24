@@ -1,0 +1,2252 @@
+[
+    {
+        "card_id": 1,
+        "count": 0,
+        "gem_id": 1
+    },
+    {
+        "card_id": 1,
+        "count": 0,
+        "gem_id": 2
+    },
+    {
+        "card_id": 1,
+        "count": 4,
+        "gem_id": 3
+    },
+    {
+        "card_id": 1,
+        "count": 0,
+        "gem_id": 4
+    },
+    {
+        "card_id": 1,
+        "count": 0,
+        "gem_id": 5
+    },
+    {
+        "card_id": 2,
+        "count": 0,
+        "gem_id": 1
+    },
+    {
+        "card_id": 2,
+        "count": 3,
+        "gem_id": 2
+    },
+    {
+        "card_id": 2,
+        "count": 0,
+        "gem_id": 3
+    },
+    {
+        "card_id": 2,
+        "count": 0,
+        "gem_id": 4
+    },
+    {
+        "card_id": 2,
+        "count": 0,
+        "gem_id": 5
+    },
+    {
+        "card_id": 3,
+        "count": 3,
+        "gem_id": 1
+    },
+    {
+        "card_id": 3,
+        "count": 1,
+        "gem_id": 2
+    },
+    {
+        "card_id": 3,
+        "count": 0,
+        "gem_id": 3
+    },
+    {
+        "card_id": 3,
+        "count": 0,
+        "gem_id": 4
+    },
+    {
+        "card_id": 3,
+        "count": 1,
+        "gem_id": 5
+    },
+    {
+        "card_id": 4,
+        "count": 0,
+        "gem_id": 1
+    },
+    {
+        "card_id": 4,
+        "count": 2,
+        "gem_id": 2
+    },
+    {
+        "card_id": 4,
+        "count": 2,
+        "gem_id": 3
+    },
+    {
+        "card_id": 4,
+        "count": 0,
+        "gem_id": 4
+    },
+    {
+        "card_id": 4,
+        "count": 1,
+        "gem_id": 5
+    },
+    {
+        "card_id": 5,
+        "count": 0,
+        "gem_id": 1
+    },
+    {
+        "card_id": 5,
+        "count": 1,
+        "gem_id": 2
+    },
+    {
+        "card_id": 5,
+        "count": 1,
+        "gem_id": 3
+    },
+    {
+        "card_id": 5,
+        "count": 1,
+        "gem_id": 4
+    },
+    {
+        "card_id": 5,
+        "count": 1,
+        "gem_id": 5
+    },
+    {
+        "card_id": 6,
+        "count": 0,
+        "gem_id": 1
+    },
+    {
+        "card_id": 6,
+        "count": 1,
+        "gem_id": 2
+    },
+    {
+        "card_id": 6,
+        "count": 2,
+        "gem_id": 3
+    },
+    {
+        "card_id": 6,
+        "count": 1,
+        "gem_id": 4
+    },
+    {
+        "card_id": 6,
+        "count": 1,
+        "gem_id": 5
+    },
+    {
+        "card_id": 7,
+        "count": 0,
+        "gem_id": 1
+    },
+    {
+        "card_id": 7,
+        "count": 0,
+        "gem_id": 2
+    },
+    {
+        "card_id": 7,
+        "count": 0,
+        "gem_id": 3
+    },
+    {
+        "card_id": 7,
+        "count": 2,
+        "gem_id": 4
+    },
+    {
+        "card_id": 7,
+        "count": 1,
+        "gem_id": 5
+    },
+    {
+        "card_id": 8,
+        "count": 0,
+        "gem_id": 1
+    },
+    {
+        "card_id": 8,
+        "count": 2,
+        "gem_id": 2
+    },
+    {
+        "card_id": 8,
+        "count": 0,
+        "gem_id": 3
+    },
+    {
+        "card_id": 8,
+        "count": 0,
+        "gem_id": 4
+    },
+    {
+        "card_id": 8,
+        "count": 2,
+        "gem_id": 5
+    },
+    {
+        "card_id": 9,
+        "count": 0,
+        "gem_id": 1
+    },
+    {
+        "card_id": 9,
+        "count": 0,
+        "gem_id": 2
+    },
+    {
+        "card_id": 9,
+        "count": 3,
+        "gem_id": 3
+    },
+    {
+        "card_id": 9,
+        "count": 2,
+        "gem_id": 4
+    },
+    {
+        "card_id": 9,
+        "count": 2,
+        "gem_id": 5
+    },
+    {
+        "card_id": 10,
+        "count": 2,
+        "gem_id": 1
+    },
+    {
+        "card_id": 10,
+        "count": 3,
+        "gem_id": 2
+    },
+    {
+        "card_id": 10,
+        "count": 0,
+        "gem_id": 3
+    },
+    {
+        "card_id": 10,
+        "count": 3,
+        "gem_id": 4
+    },
+    {
+        "card_id": 10,
+        "count": 0,
+        "gem_id": 5
+    },
+    {
+        "card_id": 11,
+        "count": 0,
+        "gem_id": 1
+    },
+    {
+        "card_id": 11,
+        "count": 0,
+        "gem_id": 2
+    },
+    {
+        "card_id": 11,
+        "count": 1,
+        "gem_id": 3
+    },
+    {
+        "card_id": 11,
+        "count": 4,
+        "gem_id": 4
+    },
+    {
+        "card_id": 11,
+        "count": 2,
+        "gem_id": 5
+    },
+    {
+        "card_id": 12,
+        "count": 0,
+        "gem_id": 1
+    },
+    {
+        "card_id": 12,
+        "count": 0,
+        "gem_id": 2
+    },
+    {
+        "card_id": 12,
+        "count": 0,
+        "gem_id": 3
+    },
+    {
+        "card_id": 12,
+        "count": 5,
+        "gem_id": 4
+    },
+    {
+        "card_id": 12,
+        "count": 3,
+        "gem_id": 5
+    },
+    {
+        "card_id": 13,
+        "count": 0,
+        "gem_id": 1
+    },
+    {
+        "card_id": 13,
+        "count": 0,
+        "gem_id": 2
+    },
+    {
+        "card_id": 13,
+        "count": 0,
+        "gem_id": 3
+    },
+    {
+        "card_id": 13,
+        "count": 5,
+        "gem_id": 4
+    },
+    {
+        "card_id": 13,
+        "count": 0,
+        "gem_id": 5
+    },
+    {
+        "card_id": 14,
+        "count": 6,
+        "gem_id": 1
+    },
+    {
+        "card_id": 14,
+        "count": 0,
+        "gem_id": 2
+    },
+    {
+        "card_id": 14,
+        "count": 0,
+        "gem_id": 3
+    },
+    {
+        "card_id": 14,
+        "count": 0,
+        "gem_id": 4
+    },
+    {
+        "card_id": 14,
+        "count": 0,
+        "gem_id": 5
+    },
+    {
+        "card_id": 15,
+        "count": 3,
+        "gem_id": 1
+    },
+    {
+        "card_id": 15,
+        "count": 0,
+        "gem_id": 2
+    },
+    {
+        "card_id": 15,
+        "count": 0,
+        "gem_id": 3
+    },
+    {
+        "card_id": 15,
+        "count": 3,
+        "gem_id": 4
+    },
+    {
+        "card_id": 15,
+        "count": 6,
+        "gem_id": 5
+    },
+    {
+        "card_id": 16,
+        "count": 0,
+        "gem_id": 1
+    },
+    {
+        "card_id": 16,
+        "count": 0,
+        "gem_id": 2
+    },
+    {
+        "card_id": 16,
+        "count": 0,
+        "gem_id": 3
+    },
+    {
+        "card_id": 16,
+        "count": 0,
+        "gem_id": 4
+    },
+    {
+        "card_id": 16,
+        "count": 7,
+        "gem_id": 5
+    },
+    {
+        "card_id": 17,
+        "count": 0,
+        "gem_id": 1
+    },
+    {
+        "card_id": 17,
+        "count": 3,
+        "gem_id": 2
+    },
+    {
+        "card_id": 17,
+        "count": 3,
+        "gem_id": 3
+    },
+    {
+        "card_id": 17,
+        "count": 5,
+        "gem_id": 4
+    },
+    {
+        "card_id": 17,
+        "count": 3,
+        "gem_id": 5
+    },
+    {
+        "card_id": 18,
+        "count": 3,
+        "gem_id": 1
+    },
+    {
+        "card_id": 18,
+        "count": 0,
+        "gem_id": 2
+    },
+    {
+        "card_id": 18,
+        "count": 0,
+        "gem_id": 3
+    },
+    {
+        "card_id": 18,
+        "count": 0,
+        "gem_id": 4
+    },
+    {
+        "card_id": 18,
+        "count": 7,
+        "gem_id": 5
+    },
+    {
+        "card_id": 19,
+        "count": 0,
+        "gem_id": 1
+    },
+    {
+        "card_id": 19,
+        "count": 0,
+        "gem_id": 2
+    },
+    {
+        "card_id": 19,
+        "count": 0,
+        "gem_id": 3
+    },
+    {
+        "card_id": 19,
+        "count": 4,
+        "gem_id": 4
+    },
+    {
+        "card_id": 19,
+        "count": 0,
+        "gem_id": 5
+    },
+    {
+        "card_id": 20,
+        "count": 1,
+        "gem_id": 1
+    },
+    {
+        "card_id": 20,
+        "count": 0,
+        "gem_id": 2
+    },
+    {
+        "card_id": 20,
+        "count": 1,
+        "gem_id": 3
+    },
+    {
+        "card_id": 20,
+        "count": 1,
+        "gem_id": 4
+    },
+    {
+        "card_id": 20,
+        "count": 1,
+        "gem_id": 5
+    },
+    {
+        "card_id": 21,
+        "count": 1,
+        "gem_id": 1
+    },
+    {
+        "card_id": 21,
+        "count": 0,
+        "gem_id": 2
+    },
+    {
+        "card_id": 21,
+        "count": 1,
+        "gem_id": 3
+    },
+    {
+        "card_id": 21,
+        "count": 2,
+        "gem_id": 4
+    },
+    {
+        "card_id": 21,
+        "count": 1,
+        "gem_id": 5
+    },
+    {
+        "card_id": 22,
+        "count": 0,
+        "gem_id": 1
+    },
+    {
+        "card_id": 22,
+        "count": 0,
+        "gem_id": 2
+    },
+    {
+        "card_id": 22,
+        "count": 2,
+        "gem_id": 3
+    },
+    {
+        "card_id": 22,
+        "count": 0,
+        "gem_id": 4
+    },
+    {
+        "card_id": 22,
+        "count": 2,
+        "gem_id": 5
+    },
+    {
+        "card_id": 23,
+        "count": 1,
+        "gem_id": 1
+    },
+    {
+        "card_id": 23,
+        "count": 0,
+        "gem_id": 2
+    },
+    {
+        "card_id": 23,
+        "count": 0,
+        "gem_id": 3
+    },
+    {
+        "card_id": 23,
+        "count": 0,
+        "gem_id": 4
+    },
+    {
+        "card_id": 23,
+        "count": 2,
+        "gem_id": 5
+    },
+    {
+        "card_id": 24,
+        "count": 0,
+        "gem_id": 1
+    },
+    {
+        "card_id": 24,
+        "count": 0,
+        "gem_id": 2
+    },
+    {
+        "card_id": 24,
+        "count": 0,
+        "gem_id": 3
+    },
+    {
+        "card_id": 24,
+        "count": 0,
+        "gem_id": 4
+    },
+    {
+        "card_id": 24,
+        "count": 3,
+        "gem_id": 5
+    },
+    {
+        "card_id": 25,
+        "count": 0,
+        "gem_id": 1
+    },
+    {
+        "card_id": 25,
+        "count": 1,
+        "gem_id": 2
+    },
+    {
+        "card_id": 25,
+        "count": 3,
+        "gem_id": 3
+    },
+    {
+        "card_id": 25,
+        "count": 1,
+        "gem_id": 4
+    },
+    {
+        "card_id": 25,
+        "count": 0,
+        "gem_id": 5
+    },
+    {
+        "card_id": 26,
+        "count": 1,
+        "gem_id": 1
+    },
+    {
+        "card_id": 26,
+        "count": 0,
+        "gem_id": 2
+    },
+    {
+        "card_id": 26,
+        "count": 2,
+        "gem_id": 3
+    },
+    {
+        "card_id": 26,
+        "count": 2,
+        "gem_id": 4
+    },
+    {
+        "card_id": 26,
+        "count": 0,
+        "gem_id": 5
+    },
+    {
+        "card_id": 27,
+        "count": 0,
+        "gem_id": 1
+    },
+    {
+        "card_id": 27,
+        "count": 5,
+        "gem_id": 2
+    },
+    {
+        "card_id": 27,
+        "count": 0,
+        "gem_id": 3
+    },
+    {
+        "card_id": 27,
+        "count": 0,
+        "gem_id": 4
+    },
+    {
+        "card_id": 27,
+        "count": 0,
+        "gem_id": 5
+    },
+    {
+        "card_id": 28,
+        "count": 2,
+        "gem_id": 1
+    },
+    {
+        "card_id": 28,
+        "count": 0,
+        "gem_id": 2
+    },
+    {
+        "card_id": 28,
+        "count": 0,
+        "gem_id": 3
+    },
+    {
+        "card_id": 28,
+        "count": 1,
+        "gem_id": 4
+    },
+    {
+        "card_id": 28,
+        "count": 4,
+        "gem_id": 5
+    },
+    {
+        "card_id": 29,
+        "count": 0,
+        "gem_id": 1
+    },
+    {
+        "card_id": 29,
+        "count": 6,
+        "gem_id": 2
+    },
+    {
+        "card_id": 29,
+        "count": 0,
+        "gem_id": 3
+    },
+    {
+        "card_id": 29,
+        "count": 0,
+        "gem_id": 4
+    },
+    {
+        "card_id": 29,
+        "count": 0,
+        "gem_id": 5
+    },
+    {
+        "card_id": 30,
+        "count": 0,
+        "gem_id": 1
+    },
+    {
+        "card_id": 30,
+        "count": 2,
+        "gem_id": 2
+    },
+    {
+        "card_id": 30,
+        "count": 2,
+        "gem_id": 3
+    },
+    {
+        "card_id": 30,
+        "count": 3,
+        "gem_id": 4
+    },
+    {
+        "card_id": 30,
+        "count": 0,
+        "gem_id": 5
+    },
+    {
+        "card_id": 31,
+        "count": 0,
+        "gem_id": 1
+    },
+    {
+        "card_id": 31,
+        "count": 2,
+        "gem_id": 2
+    },
+    {
+        "card_id": 31,
+        "count": 3,
+        "gem_id": 3
+    },
+    {
+        "card_id": 31,
+        "count": 0,
+        "gem_id": 4
+    },
+    {
+        "card_id": 31,
+        "count": 3,
+        "gem_id": 5
+    },
+    {
+        "card_id": 32,
+        "count": 5,
+        "gem_id": 1
+    },
+    {
+        "card_id": 32,
+        "count": 3,
+        "gem_id": 2
+    },
+    {
+        "card_id": 32,
+        "count": 0,
+        "gem_id": 3
+    },
+    {
+        "card_id": 32,
+        "count": 0,
+        "gem_id": 4
+    },
+    {
+        "card_id": 32,
+        "count": 0,
+        "gem_id": 5
+    },
+    {
+        "card_id": 33,
+        "count": 6,
+        "gem_id": 1
+    },
+    {
+        "card_id": 33,
+        "count": 3,
+        "gem_id": 2
+    },
+    {
+        "card_id": 33,
+        "count": 0,
+        "gem_id": 3
+    },
+    {
+        "card_id": 33,
+        "count": 0,
+        "gem_id": 4
+    },
+    {
+        "card_id": 33,
+        "count": 3,
+        "gem_id": 5
+    },
+    {
+        "card_id": 34,
+        "count": 7,
+        "gem_id": 1
+    },
+    {
+        "card_id": 34,
+        "count": 3,
+        "gem_id": 2
+    },
+    {
+        "card_id": 34,
+        "count": 0,
+        "gem_id": 3
+    },
+    {
+        "card_id": 34,
+        "count": 0,
+        "gem_id": 4
+    },
+    {
+        "card_id": 34,
+        "count": 0,
+        "gem_id": 5
+    },
+    {
+        "card_id": 35,
+        "count": 3,
+        "gem_id": 1
+    },
+    {
+        "card_id": 35,
+        "count": 0,
+        "gem_id": 2
+    },
+    {
+        "card_id": 35,
+        "count": 3,
+        "gem_id": 3
+    },
+    {
+        "card_id": 35,
+        "count": 3,
+        "gem_id": 4
+    },
+    {
+        "card_id": 35,
+        "count": 5,
+        "gem_id": 5
+    },
+    {
+        "card_id": 36,
+        "count": 7,
+        "gem_id": 1
+    },
+    {
+        "card_id": 36,
+        "count": 0,
+        "gem_id": 2
+    },
+    {
+        "card_id": 36,
+        "count": 0,
+        "gem_id": 3
+    },
+    {
+        "card_id": 36,
+        "count": 0,
+        "gem_id": 4
+    },
+    {
+        "card_id": 36,
+        "count": 0,
+        "gem_id": 5
+    },
+    {
+        "card_id": 37,
+        "count": 0,
+        "gem_id": 1
+    },
+    {
+        "card_id": 37,
+        "count": 0,
+        "gem_id": 2
+    },
+    {
+        "card_id": 37,
+        "count": 0,
+        "gem_id": 3
+    },
+    {
+        "card_id": 37,
+        "count": 0,
+        "gem_id": 4
+    },
+    {
+        "card_id": 37,
+        "count": 4,
+        "gem_id": 5
+    },
+    {
+        "card_id": 38,
+        "count": 2,
+        "gem_id": 1
+    },
+    {
+        "card_id": 38,
+        "count": 1,
+        "gem_id": 2
+    },
+    {
+        "card_id": 38,
+        "count": 0,
+        "gem_id": 3
+    },
+    {
+        "card_id": 38,
+        "count": 0,
+        "gem_id": 4
+    },
+    {
+        "card_id": 38,
+        "count": 0,
+        "gem_id": 5
+    },
+    {
+        "card_id": 39,
+        "count": 1,
+        "gem_id": 1
+    },
+    {
+        "card_id": 39,
+        "count": 3,
+        "gem_id": 2
+    },
+    {
+        "card_id": 39,
+        "count": 1,
+        "gem_id": 3
+    },
+    {
+        "card_id": 39,
+        "count": 0,
+        "gem_id": 4
+    },
+    {
+        "card_id": 39,
+        "count": 0,
+        "gem_id": 5
+    },
+    {
+        "card_id": 40,
+        "count": 0,
+        "gem_id": 1
+    },
+    {
+        "card_id": 40,
+        "count": 2,
+        "gem_id": 2
+    },
+    {
+        "card_id": 40,
+        "count": 0,
+        "gem_id": 3
+    },
+    {
+        "card_id": 40,
+        "count": 2,
+        "gem_id": 4
+    },
+    {
+        "card_id": 40,
+        "count": 0,
+        "gem_id": 5
+    },
+    {
+        "card_id": 41,
+        "count": 0,
+        "gem_id": 1
+    },
+    {
+        "card_id": 41,
+        "count": 0,
+        "gem_id": 2
+    },
+    {
+        "card_id": 41,
+        "count": 0,
+        "gem_id": 3
+    },
+    {
+        "card_id": 41,
+        "count": 3,
+        "gem_id": 4
+    },
+    {
+        "card_id": 41,
+        "count": 0,
+        "gem_id": 5
+    },
+    {
+        "card_id": 42,
+        "count": 1,
+        "gem_id": 1
+    },
+    {
+        "card_id": 42,
+        "count": 1,
+        "gem_id": 2
+    },
+    {
+        "card_id": 42,
+        "count": 0,
+        "gem_id": 3
+    },
+    {
+        "card_id": 42,
+        "count": 1,
+        "gem_id": 4
+    },
+    {
+        "card_id": 42,
+        "count": 1,
+        "gem_id": 5
+    },
+    {
+        "card_id": 43,
+        "count": 1,
+        "gem_id": 1
+    },
+    {
+        "card_id": 43,
+        "count": 1,
+        "gem_id": 2
+    },
+    {
+        "card_id": 43,
+        "count": 0,
+        "gem_id": 3
+    },
+    {
+        "card_id": 43,
+        "count": 1,
+        "gem_id": 4
+    },
+    {
+        "card_id": 43,
+        "count": 2,
+        "gem_id": 5
+    },
+    {
+        "card_id": 44,
+        "count": 0,
+        "gem_id": 1
+    },
+    {
+        "card_id": 44,
+        "count": 1,
+        "gem_id": 2
+    },
+    {
+        "card_id": 44,
+        "count": 0,
+        "gem_id": 3
+    },
+    {
+        "card_id": 44,
+        "count": 2,
+        "gem_id": 4
+    },
+    {
+        "card_id": 44,
+        "count": 2,
+        "gem_id": 5
+    },
+    {
+        "card_id": 45,
+        "count": 0,
+        "gem_id": 1
+    },
+    {
+        "card_id": 45,
+        "count": 5,
+        "gem_id": 2
+    },
+    {
+        "card_id": 45,
+        "count": 3,
+        "gem_id": 3
+    },
+    {
+        "card_id": 45,
+        "count": 0,
+        "gem_id": 4
+    },
+    {
+        "card_id": 45,
+        "count": 0,
+        "gem_id": 5
+    },
+    {
+        "card_id": 46,
+        "count": 0,
+        "gem_id": 1
+    },
+    {
+        "card_id": 46,
+        "count": 0,
+        "gem_id": 2
+    },
+    {
+        "card_id": 46,
+        "count": 5,
+        "gem_id": 3
+    },
+    {
+        "card_id": 46,
+        "count": 0,
+        "gem_id": 4
+    },
+    {
+        "card_id": 46,
+        "count": 0,
+        "gem_id": 5
+    },
+    {
+        "card_id": 47,
+        "count": 0,
+        "gem_id": 1
+    },
+    {
+        "card_id": 47,
+        "count": 0,
+        "gem_id": 2
+    },
+    {
+        "card_id": 47,
+        "count": 6,
+        "gem_id": 3
+    },
+    {
+        "card_id": 47,
+        "count": 0,
+        "gem_id": 4
+    },
+    {
+        "card_id": 47,
+        "count": 0,
+        "gem_id": 5
+    },
+    {
+        "card_id": 48,
+        "count": 2,
+        "gem_id": 1
+    },
+    {
+        "card_id": 48,
+        "count": 3,
+        "gem_id": 2
+    },
+    {
+        "card_id": 48,
+        "count": 0,
+        "gem_id": 3
+    },
+    {
+        "card_id": 48,
+        "count": 0,
+        "gem_id": 4
+    },
+    {
+        "card_id": 48,
+        "count": 2,
+        "gem_id": 5
+    },
+    {
+        "card_id": 49,
+        "count": 3,
+        "gem_id": 1
+    },
+    {
+        "card_id": 49,
+        "count": 0,
+        "gem_id": 2
+    },
+    {
+        "card_id": 49,
+        "count": 2,
+        "gem_id": 3
+    },
+    {
+        "card_id": 49,
+        "count": 3,
+        "gem_id": 4
+    },
+    {
+        "card_id": 49,
+        "count": 0,
+        "gem_id": 5
+    },
+    {
+        "card_id": 50,
+        "count": 4,
+        "gem_id": 1
+    },
+    {
+        "card_id": 50,
+        "count": 2,
+        "gem_id": 2
+    },
+    {
+        "card_id": 50,
+        "count": 0,
+        "gem_id": 3
+    },
+    {
+        "card_id": 50,
+        "count": 0,
+        "gem_id": 4
+    },
+    {
+        "card_id": 50,
+        "count": 1,
+        "gem_id": 5
+    },
+    {
+        "card_id": 51,
+        "count": 5,
+        "gem_id": 1
+    },
+    {
+        "card_id": 51,
+        "count": 3,
+        "gem_id": 2
+    },
+    {
+        "card_id": 51,
+        "count": 0,
+        "gem_id": 3
+    },
+    {
+        "card_id": 51,
+        "count": 3,
+        "gem_id": 4
+    },
+    {
+        "card_id": 51,
+        "count": 3,
+        "gem_id": 5
+    },
+    {
+        "card_id": 52,
+        "count": 0,
+        "gem_id": 1
+    },
+    {
+        "card_id": 52,
+        "count": 7,
+        "gem_id": 2
+    },
+    {
+        "card_id": 52,
+        "count": 3,
+        "gem_id": 3
+    },
+    {
+        "card_id": 52,
+        "count": 0,
+        "gem_id": 4
+    },
+    {
+        "card_id": 52,
+        "count": 0,
+        "gem_id": 5
+    },
+    {
+        "card_id": 53,
+        "count": 3,
+        "gem_id": 1
+    },
+    {
+        "card_id": 53,
+        "count": 6,
+        "gem_id": 2
+    },
+    {
+        "card_id": 53,
+        "count": 3,
+        "gem_id": 3
+    },
+    {
+        "card_id": 53,
+        "count": 0,
+        "gem_id": 4
+    },
+    {
+        "card_id": 53,
+        "count": 0,
+        "gem_id": 5
+    },
+    {
+        "card_id": 54,
+        "count": 0,
+        "gem_id": 1
+    },
+    {
+        "card_id": 54,
+        "count": 7,
+        "gem_id": 2
+    },
+    {
+        "card_id": 54,
+        "count": 0,
+        "gem_id": 3
+    },
+    {
+        "card_id": 54,
+        "count": 0,
+        "gem_id": 4
+    },
+    {
+        "card_id": 54,
+        "count": 0,
+        "gem_id": 5
+    },
+    {
+        "card_id": 55,
+        "count": 4,
+        "gem_id": 1
+    },
+    {
+        "card_id": 55,
+        "count": 0,
+        "gem_id": 2
+    },
+    {
+        "card_id": 55,
+        "count": 0,
+        "gem_id": 3
+    },
+    {
+        "card_id": 55,
+        "count": 0,
+        "gem_id": 4
+    },
+    {
+        "card_id": 55,
+        "count": 0,
+        "gem_id": 5
+    },
+    {
+        "card_id": 56,
+        "count": 3,
+        "gem_id": 1
+    },
+    {
+        "card_id": 56,
+        "count": 0,
+        "gem_id": 2
+    },
+    {
+        "card_id": 56,
+        "count": 0,
+        "gem_id": 3
+    },
+    {
+        "card_id": 56,
+        "count": 0,
+        "gem_id": 4
+    },
+    {
+        "card_id": 56,
+        "count": 0,
+        "gem_id": 5
+    },
+    {
+        "card_id": 57,
+        "count": 0,
+        "gem_id": 1
+    },
+    {
+        "card_id": 57,
+        "count": 2,
+        "gem_id": 2
+    },
+    {
+        "card_id": 57,
+        "count": 1,
+        "gem_id": 3
+    },
+    {
+        "card_id": 57,
+        "count": 0,
+        "gem_id": 4
+    },
+    {
+        "card_id": 57,
+        "count": 0,
+        "gem_id": 5
+    },
+    {
+        "card_id": 58,
+        "count": 2,
+        "gem_id": 1
+    },
+    {
+        "card_id": 58,
+        "count": 0,
+        "gem_id": 2
+    },
+    {
+        "card_id": 58,
+        "count": 0,
+        "gem_id": 3
+    },
+    {
+        "card_id": 58,
+        "count": 2,
+        "gem_id": 4
+    },
+    {
+        "card_id": 58,
+        "count": 0,
+        "gem_id": 5
+    },
+    {
+        "card_id": 59,
+        "count": 1,
+        "gem_id": 1
+    },
+    {
+        "card_id": 59,
+        "count": 1,
+        "gem_id": 2
+    },
+    {
+        "card_id": 59,
+        "count": 1,
+        "gem_id": 3
+    },
+    {
+        "card_id": 59,
+        "count": 0,
+        "gem_id": 4
+    },
+    {
+        "card_id": 59,
+        "count": 1,
+        "gem_id": 5
+    },
+    {
+        "card_id": 60,
+        "count": 2,
+        "gem_id": 1
+    },
+    {
+        "card_id": 60,
+        "count": 1,
+        "gem_id": 2
+    },
+    {
+        "card_id": 60,
+        "count": 1,
+        "gem_id": 3
+    },
+    {
+        "card_id": 60,
+        "count": 0,
+        "gem_id": 4
+    },
+    {
+        "card_id": 60,
+        "count": 1,
+        "gem_id": 5
+    },
+    {
+        "card_id": 61,
+        "count": 2,
+        "gem_id": 1
+    },
+    {
+        "card_id": 61,
+        "count": 0,
+        "gem_id": 2
+    },
+    {
+        "card_id": 61,
+        "count": 1,
+        "gem_id": 3
+    },
+    {
+        "card_id": 61,
+        "count": 0,
+        "gem_id": 4
+    },
+    {
+        "card_id": 61,
+        "count": 2,
+        "gem_id": 5
+    },
+    {
+        "card_id": 62,
+        "count": 1,
+        "gem_id": 1
+    },
+    {
+        "card_id": 62,
+        "count": 0,
+        "gem_id": 2
+    },
+    {
+        "card_id": 62,
+        "count": 0,
+        "gem_id": 3
+    },
+    {
+        "card_id": 62,
+        "count": 1,
+        "gem_id": 4
+    },
+    {
+        "card_id": 62,
+        "count": 3,
+        "gem_id": 5
+    },
+    {
+        "card_id": 63,
+        "count": 0,
+        "gem_id": 1
+    },
+    {
+        "card_id": 63,
+        "count": 0,
+        "gem_id": 2
+    },
+    {
+        "card_id": 63,
+        "count": 0,
+        "gem_id": 3
+    },
+    {
+        "card_id": 63,
+        "count": 0,
+        "gem_id": 4
+    },
+    {
+        "card_id": 63,
+        "count": 5,
+        "gem_id": 5
+    },
+    {
+        "card_id": 64,
+        "count": 3,
+        "gem_id": 1
+    },
+    {
+        "card_id": 64,
+        "count": 0,
+        "gem_id": 2
+    },
+    {
+        "card_id": 64,
+        "count": 0,
+        "gem_id": 3
+    },
+    {
+        "card_id": 64,
+        "count": 0,
+        "gem_id": 4
+    },
+    {
+        "card_id": 64,
+        "count": 5,
+        "gem_id": 5
+    },
+    {
+        "card_id": 65,
+        "count": 0,
+        "gem_id": 1
+    },
+    {
+        "card_id": 65,
+        "count": 0,
+        "gem_id": 2
+    },
+    {
+        "card_id": 65,
+        "count": 0,
+        "gem_id": 3
+    },
+    {
+        "card_id": 65,
+        "count": 6,
+        "gem_id": 4
+    },
+    {
+        "card_id": 65,
+        "count": 0,
+        "gem_id": 5
+    },
+    {
+        "card_id": 66,
+        "count": 0,
+        "gem_id": 1
+    },
+    {
+        "card_id": 66,
+        "count": 3,
+        "gem_id": 2
+    },
+    {
+        "card_id": 66,
+        "count": 0,
+        "gem_id": 3
+    },
+    {
+        "card_id": 66,
+        "count": 2,
+        "gem_id": 4
+    },
+    {
+        "card_id": 66,
+        "count": 3,
+        "gem_id": 5
+    },
+    {
+        "card_id": 67,
+        "count": 2,
+        "gem_id": 1
+    },
+    {
+        "card_id": 67,
+        "count": 0,
+        "gem_id": 2
+    },
+    {
+        "card_id": 67,
+        "count": 0,
+        "gem_id": 3
+    },
+    {
+        "card_id": 67,
+        "count": 2,
+        "gem_id": 4
+    },
+    {
+        "card_id": 67,
+        "count": 3,
+        "gem_id": 5
+    },
+    {
+        "card_id": 68,
+        "count": 1,
+        "gem_id": 1
+    },
+    {
+        "card_id": 68,
+        "count": 4,
+        "gem_id": 2
+    },
+    {
+        "card_id": 68,
+        "count": 2,
+        "gem_id": 3
+    },
+    {
+        "card_id": 68,
+        "count": 0,
+        "gem_id": 4
+    },
+    {
+        "card_id": 68,
+        "count": 0,
+        "gem_id": 5
+    },
+    {
+        "card_id": 69,
+        "count": 0,
+        "gem_id": 1
+    },
+    {
+        "card_id": 69,
+        "count": 3,
+        "gem_id": 2
+    },
+    {
+        "card_id": 69,
+        "count": 6,
+        "gem_id": 3
+    },
+    {
+        "card_id": 69,
+        "count": 3,
+        "gem_id": 4
+    },
+    {
+        "card_id": 69,
+        "count": 0,
+        "gem_id": 5
+    },
+    {
+        "card_id": 70,
+        "count": 0,
+        "gem_id": 1
+    },
+    {
+        "card_id": 70,
+        "count": 0,
+        "gem_id": 2
+    },
+    {
+        "card_id": 70,
+        "count": 7,
+        "gem_id": 3
+    },
+    {
+        "card_id": 70,
+        "count": 3,
+        "gem_id": 4
+    },
+    {
+        "card_id": 70,
+        "count": 0,
+        "gem_id": 5
+    },
+    {
+        "card_id": 71,
+        "count": 3,
+        "gem_id": 1
+    },
+    {
+        "card_id": 71,
+        "count": 5,
+        "gem_id": 2
+    },
+    {
+        "card_id": 71,
+        "count": 3,
+        "gem_id": 3
+    },
+    {
+        "card_id": 71,
+        "count": 0,
+        "gem_id": 4
+    },
+    {
+        "card_id": 71,
+        "count": 3,
+        "gem_id": 5
+    },
+    {
+        "card_id": 72,
+        "count": 0,
+        "gem_id": 1
+    },
+    {
+        "card_id": 72,
+        "count": 0,
+        "gem_id": 2
+    },
+    {
+        "card_id": 72,
+        "count": 7,
+        "gem_id": 3
+    },
+    {
+        "card_id": 72,
+        "count": 0,
+        "gem_id": 4
+    },
+    {
+        "card_id": 72,
+        "count": 0,
+        "gem_id": 5
+    },
+    {
+        "card_id": 73,
+        "count": 0,
+        "gem_id": 1
+    },
+    {
+        "card_id": 73,
+        "count": 4,
+        "gem_id": 2
+    },
+    {
+        "card_id": 73,
+        "count": 0,
+        "gem_id": 3
+    },
+    {
+        "card_id": 73,
+        "count": 0,
+        "gem_id": 4
+    },
+    {
+        "card_id": 73,
+        "count": 0,
+        "gem_id": 5
+    },
+    {
+        "card_id": 74,
+        "count": 0,
+        "gem_id": 1
+    },
+    {
+        "card_id": 74,
+        "count": 0,
+        "gem_id": 2
+    },
+    {
+        "card_id": 74,
+        "count": 1,
+        "gem_id": 3
+    },
+    {
+        "card_id": 74,
+        "count": 3,
+        "gem_id": 4
+    },
+    {
+        "card_id": 74,
+        "count": 1,
+        "gem_id": 5
+    },
+    {
+        "card_id": 75,
+        "count": 1,
+        "gem_id": 1
+    },
+    {
+        "card_id": 75,
+        "count": 1,
+        "gem_id": 2
+    },
+    {
+        "card_id": 75,
+        "count": 1,
+        "gem_id": 3
+    },
+    {
+        "card_id": 75,
+        "count": 1,
+        "gem_id": 4
+    },
+    {
+        "card_id": 75,
+        "count": 0,
+        "gem_id": 5
+    },
+    {
+        "card_id": 76,
+        "count": 1,
+        "gem_id": 1
+    },
+    {
+        "card_id": 76,
+        "count": 2,
+        "gem_id": 2
+    },
+    {
+        "card_id": 76,
+        "count": 1,
+        "gem_id": 3
+    },
+    {
+        "card_id": 76,
+        "count": 1,
+        "gem_id": 4
+    },
+    {
+        "card_id": 76,
+        "count": 0,
+        "gem_id": 5
+    },
+    {
+        "card_id": 77,
+        "count": 0,
+        "gem_id": 1
+    },
+    {
+        "card_id": 77,
+        "count": 0,
+        "gem_id": 2
+    },
+    {
+        "card_id": 77,
+        "count": 2,
+        "gem_id": 3
+    },
+    {
+        "card_id": 77,
+        "count": 1,
+        "gem_id": 4
+    },
+    {
+        "card_id": 77,
+        "count": 0,
+        "gem_id": 5
+    },
+    {
+        "card_id": 78,
+        "count": 2,
+        "gem_id": 1
+    },
+    {
+        "card_id": 78,
+        "count": 2,
+        "gem_id": 2
+    },
+    {
+        "card_id": 78,
+        "count": 0,
+        "gem_id": 3
+    },
+    {
+        "card_id": 78,
+        "count": 1,
+        "gem_id": 4
+    },
+    {
+        "card_id": 78,
+        "count": 0,
+        "gem_id": 5
+    },
+    {
+        "card_id": 79,
+        "count": 2,
+        "gem_id": 1
+    },
+    {
+        "card_id": 79,
+        "count": 0,
+        "gem_id": 2
+    },
+    {
+        "card_id": 79,
+        "count": 2,
+        "gem_id": 3
+    },
+    {
+        "card_id": 79,
+        "count": 0,
+        "gem_id": 4
+    },
+    {
+        "card_id": 79,
+        "count": 0,
+        "gem_id": 5
+    },
+    {
+        "card_id": 80,
+        "count": 0,
+        "gem_id": 1
+    },
+    {
+        "card_id": 80,
+        "count": 0,
+        "gem_id": 2
+    },
+    {
+        "card_id": 80,
+        "count": 3,
+        "gem_id": 3
+    },
+    {
+        "card_id": 80,
+        "count": 0,
+        "gem_id": 4
+    },
+    {
+        "card_id": 80,
+        "count": 0,
+        "gem_id": 5
+    },
+    {
+        "card_id": 81,
+        "count": 3,
+        "gem_id": 1
+    },
+    {
+        "card_id": 81,
+        "count": 2,
+        "gem_id": 2
+    },
+    {
+        "card_id": 81,
+        "count": 2,
+        "gem_id": 3
+    },
+    {
+        "card_id": 81,
+        "count": 0,
+        "gem_id": 4
+    },
+    {
+        "card_id": 81,
+        "count": 0,
+        "gem_id": 5
+    },
+    {
+        "card_id": 82,
+        "count": 3,
+        "gem_id": 1
+    },
+    {
+        "card_id": 82,
+        "count": 0,
+        "gem_id": 2
+    },
+    {
+        "card_id": 82,
+        "count": 3,
+        "gem_id": 3
+    },
+    {
+        "card_id": 82,
+        "count": 0,
+        "gem_id": 4
+    },
+    {
+        "card_id": 82,
+        "count": 2,
+        "gem_id": 5
+    },
+    {
+        "card_id": 83,
+        "count": 0,
+        "gem_id": 1
+    },
+    {
+        "card_id": 83,
+        "count": 1,
+        "gem_id": 2
+    },
+    {
+        "card_id": 83,
+        "count": 4,
+        "gem_id": 3
+    },
+    {
+        "card_id": 83,
+        "count": 2,
+        "gem_id": 4
+    },
+    {
+        "card_id": 83,
+        "count": 0,
+        "gem_id": 5
+    },
+    {
+        "card_id": 84,
+        "count": 5,
+        "gem_id": 1
+    },
+    {
+        "card_id": 84,
+        "count": 0,
+        "gem_id": 2
+    },
+    {
+        "card_id": 84,
+        "count": 0,
+        "gem_id": 3
+    },
+    {
+        "card_id": 84,
+        "count": 0,
+        "gem_id": 4
+    },
+    {
+        "card_id": 84,
+        "count": 0,
+        "gem_id": 5
+    },
+    {
+        "card_id": 85,
+        "count": 0,
+        "gem_id": 1
+    },
+    {
+        "card_id": 85,
+        "count": 0,
+        "gem_id": 2
+    },
+    {
+        "card_id": 85,
+        "count": 5,
+        "gem_id": 3
+    },
+    {
+        "card_id": 85,
+        "count": 3,
+        "gem_id": 4
+    },
+    {
+        "card_id": 85,
+        "count": 0,
+        "gem_id": 5
+    },
+    {
+        "card_id": 86,
+        "count": 0,
+        "gem_id": 1
+    },
+    {
+        "card_id": 86,
+        "count": 0,
+        "gem_id": 2
+    },
+    {
+        "card_id": 86,
+        "count": 0,
+        "gem_id": 3
+    },
+    {
+        "card_id": 86,
+        "count": 0,
+        "gem_id": 4
+    },
+    {
+        "card_id": 86,
+        "count": 6,
+        "gem_id": 5
+    },
+    {
+        "card_id": 87,
+        "count": 3,
+        "gem_id": 1
+    },
+    {
+        "card_id": 87,
+        "count": 3,
+        "gem_id": 2
+    },
+    {
+        "card_id": 87,
+        "count": 5,
+        "gem_id": 3
+    },
+    {
+        "card_id": 87,
+        "count": 3,
+        "gem_id": 4
+    },
+    {
+        "card_id": 87,
+        "count": 0,
+        "gem_id": 5
+    },
+    {
+        "card_id": 88,
+        "count": 0,
+        "gem_id": 1
+    },
+    {
+        "card_id": 88,
+        "count": 0,
+        "gem_id": 2
+    },
+    {
+        "card_id": 88,
+        "count": 0,
+        "gem_id": 3
+    },
+    {
+        "card_id": 88,
+        "count": 7,
+        "gem_id": 4
+    },
+    {
+        "card_id": 88,
+        "count": 3,
+        "gem_id": 5
+    },
+    {
+        "card_id": 89,
+        "count": 0,
+        "gem_id": 1
+    },
+    {
+        "card_id": 89,
+        "count": 0,
+        "gem_id": 2
+    },
+    {
+        "card_id": 89,
+        "count": 3,
+        "gem_id": 3
+    },
+    {
+        "card_id": 89,
+        "count": 6,
+        "gem_id": 4
+    },
+    {
+        "card_id": 89,
+        "count": 3,
+        "gem_id": 5
+    },
+    {
+        "card_id": 90,
+        "count": 0,
+        "gem_id": 1
+    },
+    {
+        "card_id": 90,
+        "count": 0,
+        "gem_id": 2
+    },
+    {
+        "card_id": 90,
+        "count": 0,
+        "gem_id": 3
+    },
+    {
+        "card_id": 90,
+        "count": 7,
+        "gem_id": 4
+    },
+    {
+        "card_id": 90,
+        "count": 0,
+        "gem_id": 5
+    }
+]

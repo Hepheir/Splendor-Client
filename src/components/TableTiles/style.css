@@ -1,0 +1,362 @@
+.table {
+    margin: 0 auto;
+    padding: 16px;
+}
+
+/* * * * * * * * * * * * * * * * * * * * * * * * *
+ * Tile List
+ * * * * * * * * * * * * * * * * * * * * * * * * */
+
+.table .tile-list {
+    width: 720px;
+    height: 112px;
+
+    margin: 16px auto;
+
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+.table .tile-list .tile {
+    width: 112px;
+    height: 112px;
+
+    position: relative;
+
+    border-width: 2px;
+    border-style: solid;
+    border-color: #FFF;
+    border-radius: 6px;
+
+    overflow: hidden;
+
+    flex-shrink: 0;
+}
+.table .tile-list .tile.depleted {
+    border-style: dashed;
+    border-color: gray;
+}
+
+
+.table .tile-list .tile .bg-image {
+    width: 100%;
+    height: 100%;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.table .tile-list .tile .header {
+    width: 28px;
+    height: 100%;
+
+    background-color: rgba(255, 255, 255, 0.5);
+
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    display: flex;
+    justify-content: first baseline;
+    flex-direction: column;
+    align-items: center;
+}
+
+.table .tile-list .tile .header .score {
+    width: 28px;
+    height: 28px;
+
+    margin-bottom: auto;
+
+    flex-shrink: 0;
+}
+
+.table .tile-list .tile .cost {
+    width: 28px;
+    height: 26px;
+
+    padding: 2px 6px;
+
+    position: relative;
+}
+
+.table .tile-list .tile .header .cost .cost-bg {
+    width: 16px;
+    height: 22px;
+
+    border-width: 1px;
+    border-style: solid;
+    border-color: #000;
+    border-radius: 2px;
+
+}
+
+.table .tile-list .tile .header .cost .amount {
+    width: 20px;
+    height: 20px;
+
+    position: absolute;
+    top: 2px;
+    left: 4px;
+}
+
+/* * * * * * * * * * * * * * * * * * * * * * * * *
+ * Card List
+ * * * * * * * * * * * * * * * * * * * * * * * * */
+
+.table .card-list {
+    width: 720px;
+
+    margin: 32px auto;
+}
+
+
+.table .card-list .row {
+    width: 720px;
+    height: 160px;
+
+    margin: 32px auto;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.table .card-list .row .draw-pile,
+.table .card-list .row .card {
+    width: 120px;
+    height: 160px;
+
+    position: relative;
+}
+
+.table .card-list .row .draw-pile.depleted {
+    opacity: 0.3;
+}
+
+.table .card-list .row .draw-pile .counter {
+    width: 24px;
+    height: 24px;
+
+    padding: 4px 0px;
+
+    border-width: 2px;
+    border-style: solid;
+    border-color: #000;
+    border-radius: 4px;
+
+    font-size: 14px;
+    line-height: 14px;
+    text-align: center;
+
+    background-color: rgb(190, 24, 24);
+
+    position: absolute;
+    top: -8px;
+    left: -8px;
+}
+
+.table .card-list .row .draw-pile .reserve-button {
+    width: 72px;
+    height: 48px;
+
+    position: absolute;
+    right: 4px;
+    bottom: 4px;
+}
+
+
+.table .card-list .row .draw-pile .background,
+.table .card-list .row .card .background {
+    width: 100%;
+    height: 100%;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    border-width: 2px;
+    border-style: solid;
+    border-color: #FFF;
+    border-radius: 8px;
+
+    box-shadow: -4px 4px 12px #000;
+
+    overflow: hidden;
+}
+.table .card-list .row .card.depleted .background {
+    border-style: dashed;
+    border-color: rgba(255,255,255,.5);
+}
+
+
+.table .card-list .row .card .header {
+    width: 100%;
+    height: 40px;
+
+    display: flex;
+    justify-content: space-between;
+
+    border-radius: 8em 8em 0 0;
+
+    background-color: rgba(255, 255, 255, 0.5);
+
+    position: relative;
+}
+
+.table .card-list .row .card .header .score {
+    width: 40px;
+    height: 40px;
+}
+
+.table .card-list .row .card .header .bonus {
+    width: 40px;
+    height: 40px;
+
+    padding: 6px;
+
+    background-origin: content-box;
+    background-repeat: no-repeat;
+}
+
+.table .card-list .row .card .header .bonus .gem {
+    width: 28px;
+    height: 28px;
+}
+
+
+.table .card-list .row .card .costs {
+    width: 32px;
+    height: 120px;
+
+    margin: 0;
+    padding: 4px;
+
+    display: flex;
+    flex-direction: column-reverse;
+    flex-wrap: wrap;
+
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+.table .card-list .row .card .costs .cost {
+    width: 24px;
+    height: 24px;
+
+    margin-top: 4px;
+
+    border-width: 1px;
+    border-style: solid;
+    border-color: #FFF;
+    border-radius: 50%;
+
+    position: relative;
+}
+
+.table .card-list .row .card .costs .cost .amount {
+    width: 100%;
+    height: 100%;
+}
+
+
+.table .card-list .row .card .reserve-button {
+    width: 72px;
+    height: 48px;
+
+    position: absolute;
+    right: 4px;
+    bottom: 56px;
+}
+
+
+.table .card-list .row .card .buy-button {
+    width: 72px;
+    height: 48px;
+
+    position: absolute;
+    right: 4px;
+    bottom: 4px;
+}
+
+
+/* * * * * * * * * * * * * * * * * * * * * * * * *
+ * Coin List
+ * * * * * * * * * * * * * * * * * * * * * * * * */
+
+
+.table .coin-list {
+    width: 720px;
+
+    padding: 32px 0;
+
+    margin: 32px auto;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.table .coin-list .coin-pile {
+    width: 96px;
+    height: 178px;
+    padding-bottom: 64px;
+
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: flex-start;
+
+    position: relative;
+}
+
+.table .coin-list .coin-pile .placeholder {
+    width: 96px;
+    height: 10px;
+
+    position: relative;
+
+    flex-shrink: 0;
+}
+
+.table .coin-list .coin-pile .placeholder .coin {
+    width: 96px;
+    height: 76px;
+
+    padding: 2px;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.table .coin-list .coin-pile .placeholder .coin.depleted {
+    opacity: 0;
+}
+.table .coin-list .coin-pile .placeholder:first-child .coin.depleted {
+    opacity: .2;
+}
+.table .coin-list .coin-pile .placeholder .coin::after {
+    content: '';
+
+    width: 92px;
+    height: 72px;
+
+    border-radius: 50%;
+
+    box-shadow: 4px 4px 12px rgba(0,0,0,.5);
+
+    position: absolute;
+    top: 2px;
+    left: 2px;
+}
+
+.table .coin-list .coin-pile .take-button {
+    width: 96px;
+    height: 32px;
+
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}

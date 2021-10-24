@@ -1,0 +1,632 @@
+[
+    {
+        "background": 4,
+        "bonus": 1,
+        "id": 1,
+        "level": 1,
+        "score": 1
+    },
+    {
+        "background": 4,
+        "bonus": 1,
+        "id": 2,
+        "level": 1,
+        "score": 0
+    },
+    {
+        "background": 4,
+        "bonus": 1,
+        "id": 3,
+        "level": 1,
+        "score": 0
+    },
+    {
+        "background": 4,
+        "bonus": 1,
+        "id": 4,
+        "level": 1,
+        "score": 0
+    },
+    {
+        "background": 4,
+        "bonus": 1,
+        "id": 5,
+        "level": 1,
+        "score": 0
+    },
+    {
+        "background": 4,
+        "bonus": 1,
+        "id": 6,
+        "level": 1,
+        "score": 0
+    },
+    {
+        "background": 4,
+        "bonus": 1,
+        "id": 7,
+        "level": 1,
+        "score": 0
+    },
+    {
+        "background": 4,
+        "bonus": 1,
+        "id": 8,
+        "level": 1,
+        "score": 0
+    },
+    {
+        "background": 5,
+        "bonus": 1,
+        "id": 9,
+        "level": 1,
+        "score": 1
+    },
+    {
+        "background": 5,
+        "bonus": 1,
+        "id": 10,
+        "level": 1,
+        "score": 1
+    },
+    {
+        "background": 5,
+        "bonus": 1,
+        "id": 11,
+        "level": 1,
+        "score": 2
+    },
+    {
+        "background": 6,
+        "bonus": 1,
+        "id": 12,
+        "level": 1,
+        "score": 2
+    },
+    {
+        "background": 6,
+        "bonus": 1,
+        "id": 13,
+        "level": 1,
+        "score": 2
+    },
+    {
+        "background": 6,
+        "bonus": 1,
+        "id": 14,
+        "level": 1,
+        "score": 3
+    },
+    {
+        "background": 7,
+        "bonus": 1,
+        "id": 15,
+        "level": 1,
+        "score": 4
+    },
+    {
+        "background": 7,
+        "bonus": 1,
+        "id": 16,
+        "level": 1,
+        "score": 4
+    },
+    {
+        "background": 8,
+        "bonus": 1,
+        "id": 17,
+        "level": 1,
+        "score": 3
+    },
+    {
+        "background": 8,
+        "bonus": 1,
+        "id": 18,
+        "level": 1,
+        "score": 5
+    },
+    {
+        "background": 9,
+        "bonus": 2,
+        "id": 19,
+        "level": 1,
+        "score": 1
+    },
+    {
+        "background": 9,
+        "bonus": 2,
+        "id": 20,
+        "level": 1,
+        "score": 0
+    },
+    {
+        "background": 9,
+        "bonus": 2,
+        "id": 21,
+        "level": 1,
+        "score": 0
+    },
+    {
+        "background": 9,
+        "bonus": 2,
+        "id": 22,
+        "level": 1,
+        "score": 0
+    },
+    {
+        "background": 9,
+        "bonus": 2,
+        "id": 23,
+        "level": 1,
+        "score": 0
+    },
+    {
+        "background": 9,
+        "bonus": 2,
+        "id": 24,
+        "level": 1,
+        "score": 0
+    },
+    {
+        "background": 9,
+        "bonus": 2,
+        "id": 25,
+        "level": 1,
+        "score": 0
+    },
+    {
+        "background": 9,
+        "bonus": 2,
+        "id": 26,
+        "level": 1,
+        "score": 0
+    },
+    {
+        "background": 10,
+        "bonus": 2,
+        "id": 27,
+        "level": 1,
+        "score": 2
+    },
+    {
+        "background": 10,
+        "bonus": 2,
+        "id": 28,
+        "level": 1,
+        "score": 2
+    },
+    {
+        "background": 10,
+        "bonus": 2,
+        "id": 29,
+        "level": 1,
+        "score": 3
+    },
+    {
+        "background": 11,
+        "bonus": 2,
+        "id": 30,
+        "level": 1,
+        "score": 1
+    },
+    {
+        "background": 11,
+        "bonus": 2,
+        "id": 31,
+        "level": 1,
+        "score": 1
+    },
+    {
+        "background": 11,
+        "bonus": 2,
+        "id": 32,
+        "level": 1,
+        "score": 2
+    },
+    {
+        "background": 12,
+        "bonus": 2,
+        "id": 33,
+        "level": 1,
+        "score": 4
+    },
+    {
+        "background": 12,
+        "bonus": 2,
+        "id": 34,
+        "level": 1,
+        "score": 5
+    },
+    {
+        "background": 13,
+        "bonus": 2,
+        "id": 35,
+        "level": 1,
+        "score": 3
+    },
+    {
+        "background": 13,
+        "bonus": 2,
+        "id": 36,
+        "level": 1,
+        "score": 4
+    },
+    {
+        "background": 14,
+        "bonus": 3,
+        "id": 37,
+        "level": 1,
+        "score": 1
+    },
+    {
+        "background": 14,
+        "bonus": 3,
+        "id": 38,
+        "level": 1,
+        "score": 0
+    },
+    {
+        "background": 14,
+        "bonus": 3,
+        "id": 39,
+        "level": 1,
+        "score": 0
+    },
+    {
+        "background": 14,
+        "bonus": 3,
+        "id": 40,
+        "level": 1,
+        "score": 0
+    },
+    {
+        "background": 14,
+        "bonus": 3,
+        "id": 41,
+        "level": 2,
+        "score": 0
+    },
+    {
+        "background": 14,
+        "bonus": 3,
+        "id": 42,
+        "level": 2,
+        "score": 0
+    },
+    {
+        "background": 14,
+        "bonus": 3,
+        "id": 43,
+        "level": 2,
+        "score": 0
+    },
+    {
+        "background": 14,
+        "bonus": 3,
+        "id": 44,
+        "level": 2,
+        "score": 0
+    },
+    {
+        "background": 15,
+        "bonus": 3,
+        "id": 45,
+        "level": 2,
+        "score": 2
+    },
+    {
+        "background": 15,
+        "bonus": 3,
+        "id": 46,
+        "level": 2,
+        "score": 2
+    },
+    {
+        "background": 15,
+        "bonus": 3,
+        "id": 47,
+        "level": 2,
+        "score": 3
+    },
+    {
+        "background": 16,
+        "bonus": 3,
+        "id": 48,
+        "level": 2,
+        "score": 1
+    },
+    {
+        "background": 16,
+        "bonus": 3,
+        "id": 49,
+        "level": 2,
+        "score": 1
+    },
+    {
+        "background": 16,
+        "bonus": 3,
+        "id": 50,
+        "level": 2,
+        "score": 2
+    },
+    {
+        "background": 17,
+        "bonus": 3,
+        "id": 51,
+        "level": 2,
+        "score": 3
+    },
+    {
+        "background": 17,
+        "bonus": 3,
+        "id": 52,
+        "level": 2,
+        "score": 5
+    },
+    {
+        "background": 18,
+        "bonus": 3,
+        "id": 53,
+        "level": 2,
+        "score": 4
+    },
+    {
+        "background": 18,
+        "bonus": 3,
+        "id": 54,
+        "level": 2,
+        "score": 4
+    },
+    {
+        "background": 19,
+        "bonus": 4,
+        "id": 55,
+        "level": 2,
+        "score": 1
+    },
+    {
+        "background": 19,
+        "bonus": 4,
+        "id": 56,
+        "level": 2,
+        "score": 0
+    },
+    {
+        "background": 19,
+        "bonus": 4,
+        "id": 57,
+        "level": 2,
+        "score": 0
+    },
+    {
+        "background": 19,
+        "bonus": 4,
+        "id": 58,
+        "level": 2,
+        "score": 0
+    },
+    {
+        "background": 19,
+        "bonus": 4,
+        "id": 59,
+        "level": 2,
+        "score": 0
+    },
+    {
+        "background": 19,
+        "bonus": 4,
+        "id": 60,
+        "level": 2,
+        "score": 0
+    },
+    {
+        "background": 19,
+        "bonus": 4,
+        "id": 61,
+        "level": 2,
+        "score": 0
+    },
+    {
+        "background": 19,
+        "bonus": 4,
+        "id": 62,
+        "level": 2,
+        "score": 0
+    },
+    {
+        "background": 20,
+        "bonus": 4,
+        "id": 63,
+        "level": 2,
+        "score": 2
+    },
+    {
+        "background": 20,
+        "bonus": 4,
+        "id": 64,
+        "level": 2,
+        "score": 2
+    },
+    {
+        "background": 20,
+        "bonus": 4,
+        "id": 65,
+        "level": 2,
+        "score": 3
+    },
+    {
+        "background": 21,
+        "bonus": 4,
+        "id": 66,
+        "level": 2,
+        "score": 1
+    },
+    {
+        "background": 21,
+        "bonus": 4,
+        "id": 67,
+        "level": 2,
+        "score": 1
+    },
+    {
+        "background": 21,
+        "bonus": 4,
+        "id": 68,
+        "level": 2,
+        "score": 2
+    },
+    {
+        "background": 22,
+        "bonus": 4,
+        "id": 69,
+        "level": 2,
+        "score": 4
+    },
+    {
+        "background": 22,
+        "bonus": 4,
+        "id": 70,
+        "level": 2,
+        "score": 5
+    },
+    {
+        "background": 23,
+        "bonus": 4,
+        "id": 71,
+        "level": 3,
+        "score": 3
+    },
+    {
+        "background": 23,
+        "bonus": 4,
+        "id": 72,
+        "level": 3,
+        "score": 4
+    },
+    {
+        "background": 24,
+        "bonus": 5,
+        "id": 73,
+        "level": 3,
+        "score": 1
+    },
+    {
+        "background": 24,
+        "bonus": 5,
+        "id": 74,
+        "level": 3,
+        "score": 0
+    },
+    {
+        "background": 24,
+        "bonus": 5,
+        "id": 75,
+        "level": 3,
+        "score": 0
+    },
+    {
+        "background": 24,
+        "bonus": 5,
+        "id": 76,
+        "level": 3,
+        "score": 0
+    },
+    {
+        "background": 24,
+        "bonus": 5,
+        "id": 77,
+        "level": 3,
+        "score": 0
+    },
+    {
+        "background": 24,
+        "bonus": 5,
+        "id": 78,
+        "level": 3,
+        "score": 0
+    },
+    {
+        "background": 24,
+        "bonus": 5,
+        "id": 79,
+        "level": 3,
+        "score": 0
+    },
+    {
+        "background": 24,
+        "bonus": 5,
+        "id": 80,
+        "level": 3,
+        "score": 0
+    },
+    {
+        "background": 25,
+        "bonus": 5,
+        "id": 81,
+        "level": 3,
+        "score": 1
+    },
+    {
+        "background": 25,
+        "bonus": 5,
+        "id": 82,
+        "level": 3,
+        "score": 1
+    },
+    {
+        "background": 25,
+        "bonus": 5,
+        "id": 83,
+        "level": 3,
+        "score": 2
+    },
+    {
+        "background": 26,
+        "bonus": 5,
+        "id": 84,
+        "level": 3,
+        "score": 2
+    },
+    {
+        "background": 26,
+        "bonus": 5,
+        "id": 85,
+        "level": 3,
+        "score": 2
+    },
+    {
+        "background": 26,
+        "bonus": 5,
+        "id": 86,
+        "level": 3,
+        "score": 3
+    },
+    {
+        "background": 27,
+        "bonus": 5,
+        "id": 87,
+        "level": 3,
+        "score": 3
+    },
+    {
+        "background": 27,
+        "bonus": 5,
+        "id": 88,
+        "level": 3,
+        "score": 5
+    },
+    {
+        "background": 28,
+        "bonus": 5,
+        "id": 89,
+        "level": 3,
+        "score": 4
+    },
+    {
+        "background": 28,
+        "bonus": 5,
+        "id": 90,
+        "level": 3,
+        "score": 4
+    }
+]

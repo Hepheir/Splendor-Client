@@ -1,0 +1,76 @@
+.table .coin-list {
+    width: 720px;
+
+    padding: 32px 0;
+
+    margin: 32px auto;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.table .coin-list .coin-pile {
+    width: 96px;
+    height: 178px;
+    padding-bottom: 64px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+
+    position: relative;
+}
+
+.table .coin-list .coin-pile .placeholder {
+    width: 96px;
+    height: 10px;
+
+    position: relative;
+
+    flex-shrink: 0;
+
+    cursor: pointer;
+}
+
+.table .coin-list .coin-pile .seperator {
+    width: 96px;
+    height: 10px;
+
+    position: relative;
+
+    flex-grow: 1;
+
+    cursor: pointer;
+}
+
+.table .coin-list .coin-pile .placeholder .coin {
+    width: 96px;
+    height: 76px;
+
+    padding: 2px;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.table .coin-list .coin-pile .placeholder .coin.depleted {
+    opacity: 0;
+}
+.table .coin-list .coin-pile .placeholder:first-child .coin.depleted {
+    opacity: .2;
+}
+.table .coin-list .coin-pile .placeholder .coin::after {
+    content: '';
+
+    width: 92px;
+    height: 72px;
+
+    border-radius: 50%;
+
+    box-shadow: 4px 4px 12px rgba(0,0,0,.5);
+
+    position: absolute;
+    top: 2px;
+    left: 2px;
+}
