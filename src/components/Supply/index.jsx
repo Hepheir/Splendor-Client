@@ -19,7 +19,7 @@ class Supply extends React.Component {
                 {"available":is_available},
             )} onClick={onClick}>
                 {children}
-                <SupplyCounter>{count}</SupplyCounter>
+                {count ? <SupplyCounter>{count}</SupplyCounter> : null }
                 {is_available ? <SupplyButton /> : null }
             </div>
         );
@@ -30,10 +30,6 @@ class Supply extends React.Component {
 
 function SupplyCounter(props) {
     const { children } = props;
-
-    if (!children)
-        return null;
-
     return (
         <div className="supply-counter">{children}</div>
     );
