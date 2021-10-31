@@ -1,0 +1,16 @@
+.coin-container {
+    width: 64px;
+    height: 64px;
+
+    position: relative;
+}
+
+
+.coin-art {
+    width: 64px;
+    height: 64px;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+}
