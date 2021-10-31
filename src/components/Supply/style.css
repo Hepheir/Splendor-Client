@@ -1,0 +1,53 @@
+.supply {
+    padding: 8px;
+
+    position: relative;
+
+    display: inline-block;
+
+    pointer-events: none;
+    cursor: default;
+}
+
+.supply.available {
+    pointer-events: all;
+    cursor: pointer;
+
+    border-radius: 16px;
+    background-color: rgba(255, 255, 255, 0.25);
+    box-shadow: 0 0 8px rgba(255, 255, 255, 0.25);
+}
+
+.supply-counter {
+    width: 32px;
+    height: 32px;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    border: 2px solid rgba(0, 0, 0, 1);
+    border-radius: 4px;
+
+    background-color: red;
+    font-size: 24px;
+    color: rgba(255, 255, 255, 1);
+    text-align: center;
+}
+
+.supply-button {
+    width: 32px;
+    height: 32px;
+
+    position: absolute;
+    bottom: 0;
+    right: 0;
+
+    border: 2px solid rgba(255, 255, 255, 1);
+    border-radius: 50%;
+
+    background-color: blue;
+    font-size: 24px;
+    color: rgba(255, 255, 255, 1);
+    text-align: center;
+}
