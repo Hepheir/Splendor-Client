@@ -1,0 +1,24 @@
+.card-stack * {
+    box-sizing: border-box;
+}
+
+
+.card-stack {
+    padding-right: 28px;
+
+    display: flex;
+}
+
+.card-stack-item {
+    width: 72px;
+
+    overflow: visible;
+
+    cursor: pointer;
+
+    transform: none;
+    transition: ease .12s transform;
+}
+.card-stack-item:hover {
+    transform: translateY(-40px);
+}
