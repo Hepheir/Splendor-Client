@@ -10,7 +10,8 @@ class MiniCard extends React.Component {
     constructor(props) {
         super(props);
 
-        const { card_id } = props;
+        const { children } = props;
+        const card_id = children;
 
         const card = CARDS.find(c => c.id === card_id);
         const card_costs = CARDS_COSTS.filter(c => c.card_id === card_id);
