@@ -1,0 +1,44 @@
+.coin-drawer * {
+    box-sizing: border-box;
+}
+
+
+.coin-drawer {
+    width: 48px;
+    height: 100%;
+    max-height: 600px;
+
+    padding-right: 18px;
+
+    overflow: hidden;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    pointer-events: none;
+}
+
+.coin-drawer-item {
+    width: 30px;
+    height: 48px;
+
+    margin: 16px 0;
+
+    overflow: visible;
+
+    position: relative;
+
+    pointer-events: all;
+
+    transform: none;
+    transition: ease .12s transform;
+}
+.coin-drawer-item:hover {
+    transform: translateX(18px);
+}
+
+.coin-drawer-item > * {
+    position: absolute;
+    right: 0;
+}
