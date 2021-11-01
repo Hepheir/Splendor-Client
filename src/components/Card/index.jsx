@@ -7,30 +7,46 @@ import CARDS_COSTS from "../../data/card.costs.json";
 
 
 function Card(props) {
-    const { isActive, children } = props;
-    const card_id = children;
+    const { isActive, isFlipped, isMini, children } = props;
 
-    const card = CARDS.find(c => c.id === card_id);
-    const card_costs = CARDS_COSTS.filter(c => c.card_id === card_id);
-
-    return (
-        <div className={classNames(
-            "card",
-            {"active": isActive},
-        )}>
-            <CardArt>{card.background}</CardArt>
-            <CardTemplate />
-            <CardScore>{card.score}</CardScore>
-            <CardBonus>{card.bonus}</CardBonus>
-
-            <div className="card-bottom">
-                {card_costs.map(cost =>
-                    <CardCost gem_id={cost.gem_id}>{cost.count}</CardCost>
-                )}
+    if (isFlipped) {
+        const card_level = children;
+        return (
+            <div className={classNames(
+                "card",
+                {"active": isActive},
+                {"mini": isMini},
+            )}>
+                <CardArt>{card_level}</CardArt>
             </div>
+        );
+    }
+    else {
+        const card_id = children;
 
-        </div>
-    );
+        const card = CARDS.find(c => c.id === card_id);
+        const card_costs = CARDS_COSTS.filter(c => c.card_id === card_id);
+
+        return (
+            <div className={classNames(
+                "card",
+                {"active": isActive},
+                {"mini": isMini},
+            )}>
+                <CardArt>{card.background}</CardArt>
+                <CardTemplate />
+                <CardScore>{card.score}</CardScore>
+                <CardBonus>{card.bonus}</CardBonus>
+
+                <div className="card-bottom">
+                    {card_costs.map(cost =>
+                        <CardCost gem_id={cost.gem_id}>{cost.count}</CardCost>
+                    )}
+                </div>
+
+            </div>
+        );
+    }
 }
 
 
