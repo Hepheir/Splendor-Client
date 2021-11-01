@@ -1,4 +1,4 @@
-@keyframes slot-active {
+@keyframes player-active {
     0% {
         border-color: rgba(4, 154, 254, 0.8);
         background-color: rgba(0, 89, 148, 0.4);
@@ -21,18 +21,6 @@
 }
 
 .player {
-    width: 800px;
-    height: 120px;
-
-    margin: 0 auto;
-    padding: 8px;
-
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-}
-
-.players .slot {
     width: 174px;
     height: 120px;
 
@@ -46,21 +34,22 @@
 
     position: relative;
 
+    color: #FFF;
     background-color: rgba(0, 0, 0, 0.5);
 }
 
-.players .slot.is_active {
+.player.is_active {
     padding: 7px;
     border-width: 2px;
 
-    animation-name: slot-active;
+    animation-name: player-active;
     animation-direction: normal;
     animation-duration: 1.5s;
     animation-timing-function: ease-in-out;
     animation-iteration-count: infinite;
 }
 
-.players .slot .name {
+.player-name {
     height: 14px;
 
     margin-bottom: 8px;
@@ -69,7 +58,7 @@
     line-height: 14px;
 }
 
-.players .slot .score {
+.player-score {
     height: 14px;
 
     position: absolute;
@@ -80,13 +69,13 @@
     line-height: 14px;
 }
 
-.players .slot .card-list,
-.players .slot .coin-list {
+.player-card-list,
+.player-coin-list {
     width: 100%;
     height: 24px;
 }
 
-.players .slot .card-list .card {
+.player-card {
     width: 18px;
     height: 24px;
 
@@ -99,14 +88,15 @@
     border-width: 1px;
     border-style: solid;
     border-radius: 25%;
+    border-color: #000;
 }
 
-.players .slot .card-list .card.depleted,
-.players .slot .coin-list .coin.depleted {
+.player-card.depleted,
+.player-coin.depleted {
     opacity: 0.25;
 }
 
-.players .slot .card-list .card .number {
+.player-card > .number {
     width: 20px;
     height: 20px;
 
@@ -114,7 +104,7 @@
     left: -2px;
 }
 
-.players .slot .coin-list .coin {
+.player-coin {
     width: 18px;
     height: 24px;
 
@@ -125,7 +115,7 @@
     position: relative;
 }
 
-.players .slot .coin-list .coin .number {
+.player-coin > .number {
     width: 20px;
     height: 20px;
 
@@ -134,7 +124,7 @@
     left: -1px;
 }
 
-.players .slot .coin-list .coin .coin-bg {
+.player-coin > .coin-bg {
     width: 18px;
     height: 12px;
 
@@ -144,14 +134,14 @@
 }
 
 
-.players .slot .reserve-list {
+.player-reserve-list {
     width: 60px;
     height: 24px;
 
     margin-top: 8px;
 }
 
-.players .slot .reserve-list .reserve {
+.player-reserve {
     width: 18px;
     height: 24px;
 
@@ -165,12 +155,12 @@
     border-radius: 2px;
 }
 
-.players .slot .reserve-list .reserve.depleted {
+.player-reserve.depleted {
     border-style: dashed;
     border-color: #000;
 }
 
-.players .slot .tile-list {
+.player-tile-list {
     height: 20px;
 
     position: absolute;
@@ -178,7 +168,7 @@
     bottom: 8px;
 }
 
-.players .slot .tile-list .tile {
+.player-tile {
     width: 20px;
     height: 20px;
 
@@ -190,13 +180,4 @@
     border-style: solid;
     border-color: gray;
     border-radius: 2px;
-}
-
-.players .slot .join-button {
-    width: 120px;
-    height: 24px;
-
-    position: absolute;
-    top: 4px;
-    left: 4px;
 }
