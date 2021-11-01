@@ -10,7 +10,8 @@ class Tile extends React.Component {
     constructor(props) {
         super(props);
 
-        const { tile_id } = props;
+        const { children } = props;
+        const tile_id = children;
 
         const tile = TILES.find(t => t.id === tile_id);
         const tile_costs = TILES_COSTS.filter(t => t.tile_id === tile_id);
