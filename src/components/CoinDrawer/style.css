@@ -4,11 +4,11 @@
 
 
 .coin-drawer {
-    width: 48px;
+    width: 54px;
     height: 100%;
     max-height: 600px;
 
-    padding-right: 18px;
+    padding-right: 24px;
 
     overflow: hidden;
 
@@ -34,7 +34,8 @@
     transform: none;
     transition: ease .12s transform;
 }
-.coin-drawer-item:hover {
+
+.coin-drawer-item.active {
     transform: translateX(18px);
 }
 

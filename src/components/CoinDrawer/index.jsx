@@ -1,3 +1,5 @@
+import classNames from "classnames";
+
 import "./style.css";
 
 
@@ -6,7 +8,10 @@ function CoinDrawer(props) {
     return (
         <div className="coin-drawer">
             {children.map(child =>
-                <div className="coin-drawer-item">
+                <div className={classNames(
+                    "coin-drawer-item",
+                    {"active": child.props.isActive},
+                )}>
                     {child}
                 </div>
             )}
