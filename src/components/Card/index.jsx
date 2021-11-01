@@ -9,7 +9,17 @@ import CARDS_COSTS from "../../data/card.costs.json";
 function Card(props) {
     const { isActive, isFlipped, isMini, children } = props;
 
-    if (isFlipped) {
+    if (!children) {
+        return (
+            <div className={classNames(
+                "card",
+                {"active": isActive},
+                {"mini": isMini},
+            )}>
+            </div>
+        );
+    }
+    else if (isFlipped) {
         const card_level = children;
         return (
             <div className={classNames(
