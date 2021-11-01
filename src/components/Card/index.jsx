@@ -6,40 +6,31 @@ import CARDS from "../../data/cards.json";
 import CARDS_COSTS from "../../data/card.costs.json";
 
 
-class Card extends React.Component {
-    constructor(props) {
-        super(props);
+function Card(props) {
+    const { isActive, children } = props;
+    const card_id = children;
 
-        const { card_id } = props;
+    const card = CARDS.find(c => c.id === card_id);
+    const card_costs = CARDS_COSTS.filter(c => c.card_id === card_id);
 
-        const card = CARDS.find(c => c.id === card_id);
-        const card_costs = CARDS_COSTS.filter(c => c.card_id === card_id);
+    return (
+        <div className={classNames(
+            "card",
+            {"active": isActive},
+        )}>
+            <CardArt>{card.background}</CardArt>
+            <CardTemplate />
+            <CardScore>{card.score}</CardScore>
+            <CardBonus>{card.bonus}</CardBonus>
 
-        this.state = {
-            card: card,
-            cost: card_costs,
-        };
-    }
-
-
-    render() {
-        const { card, cost } = this.state;
-        return (
-            <div className="card">
-                <CardArt>{card.background}</CardArt>
-                <CardTemplate />
-                <CardScore>{card.score}</CardScore>
-                <CardBonus>{card.bonus}</CardBonus>
-
-                <div className="card-bottom">
-                    {cost.map(card_cost =>
-                        <CardCost gem_id={card_cost.gem_id}>{card_cost.count}</CardCost>
-                    )}
-                </div>
-
+            <div className="card-bottom">
+                {card_costs.map(cost =>
+                    <CardCost gem_id={cost.gem_id}>{cost.count}</CardCost>
+                )}
             </div>
-        );
-    }
+
+        </div>
+    );
 }
 
 
