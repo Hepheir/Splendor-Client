@@ -1,0 +1,25 @@
+:root {
+    --header-frame-width: 206px; /* 174px */
+    --header-frame-height: 152px; /* 120px */
+    --header-frame-bg-color: rgba(0, 0, 0, 0);
+}
+
+.header-frame {
+    width: 100%;
+    height: var(--header-frame-height);
+
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    display: flex;
+    flex-direction: row;
+
+    background-color: var(--header-frame-bg-color);
+    box-shadow: 0 0 3px var(--header-frame-bg-color);
+}
+.header-frame.is-virtical {
+    width: var(--header-frame-width);
+    height: 100%;
+    flex-direction: column;
+}
