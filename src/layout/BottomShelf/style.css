@@ -1,0 +1,34 @@
+:root {
+    --bottom-shelf-bg-color: rgba(0,0,0,.85);
+}
+
+.bottom-shelf {
+    width: 100%;
+    height: 16px;
+
+    position: absolute;
+    left: 0;
+    bottom: -8px;
+    z-index: 2;
+
+    display: flex;
+
+    overflow-x: visible;
+}
+
+.bottom-shelf-container {
+    height: 16px;
+
+    margin: 0 auto;
+    padding: 8px;
+    border-radius: 8px;
+
+    position: relative;
+
+    background-color: var(--bottom-shelf-bg-color);
+    box-shadow: 0 0 3px var(--bottom-shelf-bg-color);
+
+
+    display: flex;
+    align-items: flex-end;
+}
