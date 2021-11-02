@@ -1,0 +1,17 @@
+:root {
+    --sidebar-frame-width: 200px;
+    --sidebar-frame-bg-color: rgba(0, 0, 0, 0.85);
+}
+
+.sidebar-frame {
+    width: var(--sidebar-frame-width);
+    height: 100%;
+
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 2;
+
+    background-color: var(--sidebar-frame-bg-color);
+    box-shadow: -3px 0 3px 0 var(--sidebar-frame-bg-color);
+}
