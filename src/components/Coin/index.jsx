@@ -1,13 +1,17 @@
+import classNames from "classnames";
 import React from "react";
 
 import "./style.css";
 
 
 function Coin(props) {
-    const { children } = props;
+    const { isActive, children } = props;
 
     return (
-        <div className="coin-container">
+        <div className={classNames(
+            "coin-container",
+            {"active": isActive},
+        )}>
             <div className={`coin-art skin coins-${children}`} />
         </div>
     );
