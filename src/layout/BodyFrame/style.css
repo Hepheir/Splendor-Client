@@ -1,0 +1,31 @@
+.body-frame {
+    width: 100%;
+    height: 100%;
+
+    padding-top: 0;
+    padding-left: 0;
+    padding-right: 0;
+
+    z-index: 1;
+
+}
+.body-frame.has-header {
+    padding-top: var(--header-frame-height);
+    padding-left: 0;
+}
+.body-frame.has-header.is-virtical {
+    padding-top: 0;
+    padding-left: var(--header-frame-width);
+}
+.body-frame.has-sidebar {
+    padding-right: var(--sidebar-frame-width);
+}
+
+.body-frame-container {
+    width: 100%;
+    height: 100%;
+
+    overflow: hidden;
+
+    position: relative;
+}
