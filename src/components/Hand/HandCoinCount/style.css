@@ -1,0 +1,30 @@
+.hand-coin-count {
+    box-sizing: border-box;
+}
+
+.hand-coin-count {
+    width: 40px;
+    height: 48px;
+
+    padding-bottom: 4px;
+
+    position: relative;
+}
+.hand-coin-count-coin {
+    width: 40px;
+    height: 24px;
+
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+.hand-coin-count.depleted {
+    opacity: 0.3;
+}
+
+.hand-coin-count-number {
+    width: 40px;
+    height: 40px;
+
+    position: relative;
+}

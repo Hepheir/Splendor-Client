@@ -1,0 +1,9 @@
+.hand-frame {
+    box-sizing: border-box;
+}
+
+.hand-frame {
+    padding-right: 32px;
+
+    display: flex;
+}

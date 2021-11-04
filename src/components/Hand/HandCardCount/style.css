@@ -1,0 +1,39 @@
+.hand-card-count,
+.hand-card-count::after,
+.hand-card-count * {
+    box-sizing: border-box;
+}
+
+.hand-card-count {
+    width: 40px;
+    height: 32px;
+
+    margin-top: 8px;
+    padding: 0 4px;
+    border-radius: 4px;
+
+    position: relative;
+}
+.hand-card-count::after {
+    content: '';
+
+    width: 100%;
+    height: 100%;
+
+    border-width: 2px;
+    border-style: solid;
+    border-color: #000;
+    border-radius: 4px;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.hand-card-count.depleted {
+    opacity: 0.3;
+}
+
+.hand-card-count-number {
+    width: 32px;
+    height: 32px;
+}

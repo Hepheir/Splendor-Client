@@ -1,0 +1,10 @@
+.hand-card {
+    width: 60px;
+    height: 100px;
+
+    transform: none;
+    transition: ease .12s transform;
+}
+.hand-card:hover {
+    transform: translateY(-40px);
+}
