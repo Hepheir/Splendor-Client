@@ -1,0 +1,31 @@
+.player-tile,
+.player-tile::after,
+.player-tile * {
+    box-sizing: border-box;
+}
+
+.player-tile {
+    width: 18px;
+    height: 18px;
+
+    margin-top: 8px;
+    margin-left: 1px;
+    border-radius: 3px;
+
+    position: relative;
+}
+.player-tile::after {
+    content: '';
+
+    width: 100%;
+    height: 100%;
+
+    border-width: 1px;
+    border-style: solid;
+    border-color: #000;
+    border-radius: 3px;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+}

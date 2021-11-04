@@ -1,0 +1,32 @@
+.player-coin-count {
+    box-sizing: border-box;
+}
+
+.player-coin-count {
+    width: 18px;
+    height: 22px;
+
+    margin: 0 4px;
+    padding-bottom: 4px;
+
+    position: relative;
+}
+.player-coin-count.depleted {
+    opacity: 0.3;
+}
+
+.player-coin-count-coin {
+    width: 18px;
+    height: 11px;
+
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+.player-coin-count-number {
+    width: 18px;
+    height: 18px;
+
+    position: relative;
+}

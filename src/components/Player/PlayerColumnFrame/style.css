@@ -1,0 +1,8 @@
+.player-column-frame {
+    box-sizing: border-box;
+}
+
+.player-column-frame {
+    display: flex;
+    align-items: flex-end;
+}
