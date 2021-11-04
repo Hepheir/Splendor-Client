@@ -1,0 +1,38 @@
+.table-coin-counter,
+.table-coin-counter::after {
+    box-sizing: border-box;
+}
+
+.table-coin-counter {
+    width: 20px;
+    height: 20px;
+
+    border-radius: 4px;
+
+    position: absolute;
+    top: 0;
+    right: 0;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-size: 14px;
+    color: rgba(255, 255, 255, 1);
+    background-color: red;
+}
+.table-coin-counter::after {
+    content: '';
+
+    width: 100%;
+    height: 100%;
+
+    border-width: 2px;
+    border-style: solid;
+    border-color: #000;
+    border-radius: inherit;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+}

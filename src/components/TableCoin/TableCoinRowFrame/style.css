@@ -1,0 +1,26 @@
+.table-coin-row-frame {
+    width: 64px;
+    height: 64px;
+
+    margin: 8px 0;
+    padding: 4px;
+
+    position: relative;
+
+    opacity: 1;
+
+    transform: none;
+    transition: ease .12s transform, ease .12s opacity;
+
+    cursor: pointer;
+}
+.table-coin-row-frame.is-hidden {
+    opacity: 0.3;
+    transform: translateX(-32px);
+
+    cursor: default;
+}
+.table-coin-row-frame.is-hidden:hover {
+    opacity: 0.7;
+    transform: translateX(-18px);
+}
