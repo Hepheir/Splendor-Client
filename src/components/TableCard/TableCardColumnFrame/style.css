@@ -1,0 +1,5 @@
+.table-card-column-frame {
+    margin: 0 4px;
+
+    flex-shrink: 0;
+}

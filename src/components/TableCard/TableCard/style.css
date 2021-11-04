@@ -1,0 +1,7 @@
+.table-card-card {
+    transform: none;
+    transition: ease .12s transform;
+}
+.table-card-card:hover {
+    transform: scale(1.12);
+}

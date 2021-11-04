@@ -1,0 +1,8 @@
+.table-card-row-frame {
+    padding: 0 72px;
+    padding-bottom: 12px;
+
+    flex-shrink: 0;
+
+    display: flex;
+}
