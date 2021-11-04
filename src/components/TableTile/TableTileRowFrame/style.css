@@ -1,0 +1,17 @@
+.table-tile-row-frame {
+    width: 100px;
+    height: 100px;
+
+    margin: 8px 0;
+
+    position: relative;
+
+    opacity: 0.7;
+
+    transform: translateX(60px);
+    transition: ease .12s transform, ease .12s opacity;
+}
+.table-tile-row-frame:hover {
+    opacity: 1;
+    transform: none;
+}
