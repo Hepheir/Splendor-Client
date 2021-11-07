@@ -1,0 +1,28 @@
+.action-coin {
+    width: 28px;
+
+    margin: 0 4px;
+
+    position: relative;
+}
+.action-coin::before {
+    content: '';
+
+    width: 48px;
+    height: 44px;
+
+    border-radius: 50%;
+
+    position: absolute;
+    top: 2px;
+    left: 0;
+
+    background-color: rgba(0,0,0,1);
+    box-shadow: 0 0 3px rgba(0,0,0,1);
+}
+.action-coin > * {
+    opacity: 0.3;
+}
+.action-coin.is-active > * {
+    opacity: 1;
+}

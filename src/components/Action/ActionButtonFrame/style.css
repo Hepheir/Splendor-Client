@@ -1,0 +1,10 @@
+.action-button-frame {
+    margin: 8px 0;
+
+    display: flex;
+    flex-direction: row;
+}
+
+.action-button-frame > * {
+    margin: 0 4px;
+}

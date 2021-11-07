@@ -1,0 +1,14 @@
+.action-guide-frame {
+    height: 28px;
+    min-width: 200px;
+
+    margin: 8px 0;
+    padding: 4px 12px;
+    border-radius: 8px;
+
+    font-size: 14px;
+    line-height: 18px;
+    text-align: center;
+    color: lightblue;
+    background-color: rgba(0,0,0,.5);
+}

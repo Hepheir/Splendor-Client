@@ -1,0 +1,28 @@
+.action-button * {
+    box-sizing: border-box;
+}
+
+
+.action-button {
+    padding: 12px;
+
+    border-width: 2px;
+    border-style: solid;
+    border-color: #FFF;
+
+    display: inline-block;
+
+    font-size: 24px;
+    font-family: 'Times New Roman', Times, serif;
+    color: #FFF;
+
+    background-color: rgba(0, 0, 0, 0.5);
+
+    cursor: pointer;
+    user-select: none;
+    --webkit-user-select: none;
+}
+
+.action-button:hover {
+    border-color: #000;
+}
