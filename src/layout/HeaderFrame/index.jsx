@@ -4,12 +4,15 @@ import "./style.css";
 
 
 function HeaderFrame(props) {
-    const { children, isVertical } = props;
+    const { children, isVertical, hasSidebar } = props;
     return (
         <div className={classNames(
             "header-frame",
             {"is-virtical": isVertical},
-        )}>{children}</div>
+            {"has-sidebar": hasSidebar},
+        )}>
+            {children}
+        </div>
     )
 }
 

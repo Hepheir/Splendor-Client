@@ -1,25 +1,44 @@
 :root {
     --header-frame-width: 206px; /* 174px */
-    --header-frame-height: 152px; /* 120px */
-    --header-frame-bg-color: rgba(0, 0, 0, 0);
+    --header-frame-height: 140px; /* 120px */
+    --header-frame-bg-color: rgba(0, 0, 0, 0.85);
 }
 
 .header-frame {
     width: 100%;
     height: var(--header-frame-height);
 
+    padding: 0 24px;
+
+    overflow-x: scroll;
+
     position: absolute;
     top: 0;
     left: 0;
 
+    z-index: 2;
+
     display: flex;
     flex-direction: row;
 
-    background-color: var(--header-frame-bg-color);
-    box-shadow: 0 0 3px var(--header-frame-bg-color);
+    background-color: transparent;
+    box-shadow: 0 0 3px transparent;
+}
+.header-frame::-webkit-scrollbar {
+    display: none;
+}
+.header-frame.has-sidebar:not(.is-virtical) {
+    padding-right: calc(var(--sidebar-frame-width) + 24px);
 }
 .header-frame.is-virtical {
     width: var(--header-frame-width);
     height: 100%;
+
+    padding: 24px;
+
     flex-direction: column;
+    align-items: center;
+
+    background-color: var(--header-frame-bg-color);
+    box-shadow: 3px 0 3px var(--header-frame-bg-color);
 }
