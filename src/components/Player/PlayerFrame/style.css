@@ -23,8 +23,9 @@
 
 .player-frame {
     width: 174px;
+    height: 120px;
 
-    margin: 0 8px;
+    margin: 8px;
     padding: 8px;
 
     border-width: 1px;
