@@ -8,6 +8,7 @@
 
     z-index: 1;
 
+    position: relative;
 }
 .body-frame.has-header {
     padding-top: var(--header-frame-height);
@@ -28,4 +29,7 @@
     overflow: hidden;
 
     position: relative;
+
+    display: flex;
+    flex-direction: column;
 }

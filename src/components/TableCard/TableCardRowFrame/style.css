@@ -1,8 +1,18 @@
-.table-card-row-frame {
-    padding: 0 72px;
+.table-card-row-frame-container {
+    width: 100%;
+
     padding-bottom: 12px;
 
+    display: flex;
+    justify-content: center;
+
     flex-shrink: 0;
+    flex-grow: 0;
+}
+.table-card-row-frame {
+    padding: 0 72px;
 
     display: flex;
+
+    flex-shrink: 0;
 }
