@@ -4,13 +4,13 @@
 
 
 .action-button {
-    padding: 12px;
+    padding: 12px 16px;
 
     border-width: 2px;
     border-style: solid;
     border-color: #FFF;
 
-    display: inline-block;
+    display: block;
 
     font-size: 24px;
     font-family: 'Times New Roman', Times, serif;
@@ -18,11 +18,18 @@
 
     background-color: rgba(0, 0, 0, 0.5);
 
+    opacity: 0.3;
+
+    pointer-events: none;
     cursor: pointer;
     user-select: none;
     --webkit-user-select: none;
 }
-
 .action-button:hover {
     border-color: #000;
+}
+.action-button.is-active {
+    opacity: 1;
+
+    pointer-events: all;
 }
