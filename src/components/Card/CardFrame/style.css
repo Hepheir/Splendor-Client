@@ -1,0 +1,23 @@
+.card-frame {
+    width: 100px;
+    height: 140px;
+
+    border-width: 2px;
+    border-style: solid;
+    border-color: rgba(0,0,0,1);
+    border-radius: 8px;
+
+    overflow: hidden;
+
+    display: block;
+
+    position: relative;
+
+    box-shadow: 0 0 3px rgba(0,0,0,.85);
+}
+.card-frame.is-mini {
+    height: 110px;
+}
+.card-frame.is-active {
+    border-color: rgba(50,205,50,.85);
+}

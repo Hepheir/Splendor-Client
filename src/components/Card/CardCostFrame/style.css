@@ -1,0 +1,12 @@
+.card-cost-frame {
+    width: 100%;
+    height: auto;
+    max-height: 70px;
+
+    position: absolute;
+    left: 0;
+    bottom: 0;
+
+    display: flex;
+    flex-wrap: wrap-reverse;
+}

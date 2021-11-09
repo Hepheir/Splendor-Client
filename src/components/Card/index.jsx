@@ -1,5 +1,12 @@
-import classNames from "classnames";
 import React from "react";
+
+import CardFrame from "./CardFrame";
+import CardArt from "./CardArt";
+import CardHeaderFrame from "./CardHeaderFrame";
+import CardScore from "./CardScore";
+import CardBonus from "./CardBonus";
+import CardCostFrame from "./CardCostFrame";
+import CardCost from "./CardCost";
 
 import "./style.css";
 import CARDS from "../../data/cards.json";
@@ -7,121 +14,55 @@ import CARDS_COSTS from "../../data/card.costs.json";
 
 
 function Card(props) {
-    const { isActive, isFlipped, isMini, children } = props;
+    const { children: cardId, isActive, isMini } = props;
 
-    if (!children) {
+    if (!cardId)
         return (
-            <div className={classNames(
-                "card",
-                {"active": isActive},
-                {"mini": isMini},
-            )}>
-            </div>
+            <CardFrame isActive={isActive} isMini={isMini}/>
         );
-    }
-    else if (isFlipped) {
-        const card_level = children;
-        return (
-            <div className={classNames(
-                "card",
-                {"active": isActive},
-                {"mini": isMini},
-            )}>
-                <CardArt>{card_level}</CardArt>
-            </div>
-        );
-    }
-    else {
-        const card_id = children;
 
-        const card = CARDS.find(c => c.id === card_id);
-        const card_costs = CARDS_COSTS.filter(c => c.card_id === card_id);
+    const card = CARDS.find(card => card.id === cardId);
+    const card_costs = CARDS_COSTS.filter(card_cost => card_cost.card_id === cardId);
 
-        return (
-            <div className={classNames(
-                "card",
-                {"active": isActive},
-                {"mini": isMini},
-            )}>
-                <CardArt>{card.background}</CardArt>
-                <CardTemplate />
+    return (
+        <CardFrame isActive={isActive} isMini={isMini}>
+            <CardArt>{card.background}</CardArt>
+            <CardHeaderFrame>
                 <CardScore>{card.score}</CardScore>
                 <CardBonus>{card.bonus}</CardBonus>
-
-                <div className="card-bottom">
-                    {card_costs.map(cost =>
-                        <CardCost gem_id={cost.gem_id}>{cost.count}</CardCost>
-                    )}
-                </div>
-
-            </div>
-        );
-    }
-}
-
-
-function CardArt(props) {
-    const { children } = props;
-    return (
-        <div className={classNames(
-            "card-art",
-            "skin",
-            `card-background-${children}`
-        )} />
+            </CardHeaderFrame>
+            <CardCostFrame>
+                {card_costs.map(cost =>
+                    cost.count > 0 ?
+                        <CardCost gemId={cost.gem_id}>{cost.count}</CardCost>
+                        : null
+                )}
+            </CardCostFrame>
+        </CardFrame>
     );
 }
 
-
-function CardTemplate(props) {
+function Drawpile(props) {
+    const { level, children: count, isActive, isMini } = props;
     return (
-        <div className="card-template" />
-    )
-}
-
-
-function CardScore(props) {
-    const { children } = props;
-    return (
-        <div className={classNames(
-            "card-score",
-            "skin",
-            `numbers-${children}`
-        )} />
-    )
-}
-
-
-function CardBonus(props) {
-    const { children } = props;
-    return (
-        <div className={classNames(
-            "card-bonus",
-            "skin",
-            `gem-${children}`
-        )} />
-    )
-}
-
-function CardCost(props) {
-    const { gem_id, children } = props;
-
-    if (children === 0)
-        return null;
-
-    return (
-        <div className={classNames(
-            "card-cost-container",
-            "skin",
-            `cardcosts-${gem_id}`
-        )}>
-            <div className={classNames(
-                "card-cost-counter",
-                "skin",
-                `numbers-${children}`
-            )} />
+        <div className="card-drawpile">
+            <CardFrame isActive={isActive} isMini={isMini}>
+                <CardArt>{level}</CardArt>
+            </CardFrame>
+            <div className="card-drawpile-count">{count}</div>
         </div>
     );
 }
 
 
-export default Card;
+export {
+    Card,
+    Drawpile,
+    CardFrame,
+    CardArt,
+    CardHeaderFrame,
+    CardScore,
+    CardBonus,
+    CardCostFrame,
+    CardCost,
+};
