@@ -1,0 +1,89 @@
+:root {
+    --shelf-bg-color: rgba(0,0,0,.85);
+}
+
+.left-shelf {
+    padding: 8px 0;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+
+    overflow-x: visible;
+}
+.left-shelf::before {
+    content: '';
+
+    height: 100%;
+
+    padding: 8px;
+    border-radius: 8px;
+
+    position: absolute;
+    top: 0;
+    left: -8px;
+
+    background-color: var(--shelf-bg-color);
+    box-shadow: 0 0 3px var(--shelf-bg-color);
+    box-sizing: border-box;
+}
+
+.right-shelf {
+    padding: 8px 0;
+
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 2;
+}
+.right-shelf::before {
+    content: '';
+
+    height: 100%;
+
+    padding: 8px;
+    border-radius: 8px;
+
+    overflow-x: visible;
+
+    position: absolute;
+    top: 0;
+    right: -8px;
+
+    background-color: var(--shelf-bg-color);
+    box-shadow: 0 0 3px var(--shelf-bg-color);
+    box-sizing: border-box;
+}
+
+
+.bottom-shelf {
+    width: 100%;
+    height: 16px;
+
+    position: absolute;
+    left: 0;
+    bottom: -8px;
+    z-index: 2;
+
+    display: flex;
+
+    overflow-x: visible;
+}
+
+.bottom-shelf-container {
+    height: 16px;
+
+    margin: 0 auto;
+    padding: 8px;
+    border-radius: 8px;
+
+    position: relative;
+
+    background-color: var(--shelf-bg-color);
+    box-shadow: 0 0 3px var(--shelf-bg-color);
+
+
+    display: flex;
+    align-items: flex-end;
+}
