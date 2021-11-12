@@ -1,0 +1,31 @@
+:root {
+    --s3r-layout-header-height: 180px;
+    --s3r-layout-footer-height: 100px;
+}
+
+.s3r-layout {
+    width: 100%;
+    height: 100%;
+
+    position: absolute;
+    left: 0;
+}
+
+.s3r-header {
+    height: var(--s3r-layout-header-height);
+
+    top: 0;
+    z-index: 2;
+}
+.s3r-footer {
+    height: var(--s3r-layout-footer-height);
+
+    bottom: 0;
+    z-index: 2;
+}
+.s3r-body {
+    padding-top: var(--s3r-layout-header-height);
+    padding-bottom: var(--s3r-layout-footer-height);
+
+    z-index: 1;
+}
