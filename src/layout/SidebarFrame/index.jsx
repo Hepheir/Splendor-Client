@@ -9,4 +9,17 @@ function SidebarFrame(props) {
 }
 
 
-export default SidebarFrame;
+function NonSidebarFrame(props) {
+    const { children } = props;
+    return (
+        <div className="non-sidebar-frame">
+            <div className="non-sidebar-frame-container">{children}</div>
+        </div>
+    )
+}
+
+
+export {
+    SidebarFrame,
+    NonSidebarFrame,
+};
