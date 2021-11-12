@@ -1,6 +1,7 @@
-.table-card-row-frame-container {
-    width: 100%;
+.table-card-row-frame {
+    width: 684px;
 
+    margin: 0 auto;
     padding-bottom: 12px;
 
     display: flex;
@@ -9,10 +10,19 @@
     flex-shrink: 0;
     flex-grow: 0;
 }
-.table-card-row-frame {
-    padding: 0 72px;
-
+.table-card-row-frame-container {
     display: flex;
+
+    flex-shrink: 0;
+}
+
+.table-card-row-frame-container::before,
+.table-card-row-frame-container::after {
+    content: '';
+
+    width: 72px;
+
+    display: block;
 
     flex-shrink: 0;
 }
