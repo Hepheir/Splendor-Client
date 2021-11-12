@@ -1,0 +1,16 @@
+.action-card-frame {
+    width: 100px;
+
+    overflow: visible;
+
+    position: relative;
+}
+
+.action-card-frame > * {
+    position: absolute;
+    left: 0;
+    bottom: -24px;
+
+    transform: scale(0.6);
+    transform-origin: center;
+}

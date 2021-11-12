@@ -1,5 +1,6 @@
 .action-coin-frame {
     margin: 8px 0;
+    padding-right: 20px;
 
     display: flex;
     flex-direction: row-reverse;
