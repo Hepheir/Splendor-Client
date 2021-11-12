@@ -11,6 +11,7 @@ import PlayerTile from "./PlayerTile";
 import PlayerCard from "./PlayerCard";
 
 import { getCard, getCoin, getTile } from "../../data";
+import { rest } from "../../splendor";
 
 
 class Player extends React.Component {
@@ -36,11 +37,12 @@ class Player extends React.Component {
 
     componentDidMount() {
         const { children: id } = this.props;
-        fetch(`http://localhost:5000/api/v1/player?user_id=${id}`).then(response => {
-            response.json().then(json => {
-                this.setState(json);
-            });
-        });
+        try {
+            rest('/player', { user_id:id }, 'GET').then(json => this.setState(json));
+        }
+        catch(e) {
+            console.log(e);
+        }
     }
 
     render() {
