@@ -1,4 +1,3 @@
-import "../../../skins/style.css";
 import "./style.css";
 
 

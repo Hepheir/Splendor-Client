@@ -2,6 +2,11 @@
     background-size: 100% 100%;
 }
 
+.skin.background {
+    background-image: url('./basic/background.jpg');
+}
+
+
 .skin.cardcosts-1 {
     background-image: url('./basic/cardcosts/1.png');
 }
@@ -111,8 +116,8 @@
 }
 
 .skin.card-background-4 {
-    background-image: url(https://avatars.githubusercontent.com/u/19310326?v=4);
-    /* background-image: url('./basic/cards/4.jpg'); */
+    /* background-image: url(https://avatars.githubusercontent.com/u/19310326?v=4); */
+    background-image: url('./basic/cards/4.jpg');
 }
 
 .skin.card-background-5 {
@@ -224,8 +229,8 @@
 }
 
 .skin.tiles-1 {
-    background-image: url(https://avatars.githubusercontent.com/u/19310326?v=4);
-    /* background-image: url('./basic/tiles/1.jpg'); */
+    /* background-image: url(https://avatars.githubusercontent.com/u/19310326?v=4); */
+    background-image: url('./basic/tiles/1.jpg');
 }
 
 .skin.tiles-10 {
@@ -288,32 +293,32 @@
 
 .skin.gem-theme-1 {
     background: radial-gradient(ellipse, #fff 30%, #cecfd1);
-    border-color: #000;
+    /* border-color: #000; */
 }
 
 .skin.gem-theme-2 {
     background: radial-gradient(ellipse, #5bcbf5 30%, #193180);
-    border-color: #000;
+    /* border-color: #000; */
 }
 
 .skin.gem-theme-3 {
     background: radial-gradient(ellipse, #80c341 30%, #006830);
-    border-color: #000;
+    /* border-color: #000; */
 }
 
 .skin.gem-theme-4 {
     background: radial-gradient(ellipse, #f36f21 30%, #a21b1f);
-    border-color: #000;
+    /* border-color: #000; */
 }
 
 .skin.gem-theme-5 {
     background: radial-gradient(ellipse, #000 30%, #413b3a);
-    border-color: gray;
+    /* border-color: gray; */
 }
 
 .skin.gem-theme-6 {
     background: radial-gradient(ellipse, rgb(245, 213, 70) 30%, #ad8e02);
-    border-color: #000;
+    /* border-color: #000; */
 }
 
 @keyframes button-active {

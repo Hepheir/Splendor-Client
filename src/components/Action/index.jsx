@@ -1,6 +1,6 @@
 import React from "react";
 
-import { rest } from "../../splendor";
+import { rest, API_SERVER_HOST } from "../../splendor";
 import { Card, CardArt, CardFrame } from "../Card";
 import { getCoin } from "../../data";
 
@@ -11,6 +11,7 @@ import ActionCoinFrame from "./ActionCoinFrame";
 import ActionCoin from "./ActionCoin";
 import ActionButtonFrame from "./ActionButtonFrame";
 import ActionButton from "./ActionButton";
+import socket from "../../socket";
 
 
 class Action extends React.Component {
@@ -26,19 +27,31 @@ class Action extends React.Component {
 
             is_reservable: false,
             is_buyable: false,
-            is_takeable: true,
+            is_takeable: false,
             is_returnable: false,
         };
+
+        this.onClick = this.onClick.bind(this);
+        this.update = this.update.bind(this);
+    }
+
+
+    update() {
+        rest('/action', {}, 'GET')
+            .then(json => this.setState(json))
+            .catch(e => console.log(e));
+    }
+
+
+    onClick() {
+        rest('/action', this.state, 'PUT')
+            .catch(console.log);
     }
 
 
     componentDidMount() {
-        try {
-            rest('/action', {}, 'GET').then(json => this.setState(json));
-        }
-        catch(e) {
-            console.log(e);
-        }
+        socket.on('update', this.update);
+        this.update();
     }
 
 
@@ -70,10 +83,10 @@ class Action extends React.Component {
                 </ActionCoinFrame>
 
                 <ActionButtonFrame>
-                    <ActionButton isActive={this.state.is_takeable}>TAKE COIN</ActionButton>
-                    <ActionButton isActive={this.state.is_reservable}>RESERVE CARD</ActionButton>
-                    <ActionButton isActive={this.state.is_buyable}>BUY CARD</ActionButton>
-                    <ActionButton isActive={this.state.is_returnable}>RETURN CARD</ActionButton>
+                    <ActionButton onClick={this.onClick} isActive={this.state.is_takeable}>TAKE COIN</ActionButton>
+                    <ActionButton onClick={this.onClick} isActive={this.state.is_reservable}>RESERVE CARD</ActionButton>
+                    <ActionButton onClick={this.onClick} isActive={this.state.is_buyable}>BUY CARD</ActionButton>
+                    <ActionButton onClick={this.onClick} isActive={this.state.is_returnable}>RETURN CARD</ActionButton>
                 </ActionButtonFrame>
             </ActionFrame>
         );

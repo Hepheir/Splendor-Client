@@ -1,6 +1,5 @@
 import classNames from "classnames";
 
-import "../../../skins/style.css";
 import "./style.css";
 
 

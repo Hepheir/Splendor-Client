@@ -12,4 +12,6 @@ const socket = io(`ws://${host}:${port}`, {
 });
 
 
+socket.connect();
+
 export default socket;

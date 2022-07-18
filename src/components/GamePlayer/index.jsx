@@ -37,12 +37,10 @@ class Player extends React.Component {
 
     componentDidMount() {
         const { children: id } = this.props;
-        try {
-            rest('/player', { user_id:id }, 'GET').then(json => this.setState(json));
-        }
-        catch(e) {
-            console.log(e);
-        }
+
+        rest('/player', { user_id:id }, 'GET')
+            .then(json => this.setState(json))
+            .catch(error => console.log(error));
     }
 
     render() {

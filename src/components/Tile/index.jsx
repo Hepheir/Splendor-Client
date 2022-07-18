@@ -10,11 +10,10 @@ class Tile extends React.Component {
     constructor(props) {
         super(props);
 
-        const { children } = props;
-        const tile_id = children;
+        const { children: tileId } = props;
 
-        const tile = TILES.find(t => t.id === tile_id);
-        const tile_costs = TILES_COSTS.filter(t => t.tile_id === tile_id);
+        const tile = TILES.find(t => t.id === tileId);
+        const tile_costs = TILES_COSTS.filter(t => t.tile_id === tileId);
 
         this.state = {
             tile: tile,
@@ -24,21 +23,28 @@ class Tile extends React.Component {
 
 
     render() {
+        const { children: tileId } = this.props;
         const { tile, cost } = this.state;
-        return (
-            <div className="tile">
-                <TileArt>{tile.background}</TileArt>
-                <TileTemplate />
-                <TileScore>{tile.score}</TileScore>
-
-                <div className="tile-bottom">
-                    {cost.map(tile_cost =>
-                        <TileCost gem_id={tile_cost.gem_id}>{tile_cost.count}</TileCost>
-                    )}
+        if (tileId === null)
+            return (
+                <div className="tile">
                 </div>
+            );
+        else
+            return (
+                <div className="tile">
+                    <TileArt>{tile.background}</TileArt>
+                    <TileTemplate />
+                    <TileScore>{tile.score}</TileScore>
 
-            </div>
-        );
+                    <div className="tile-bottom">
+                        {cost.map(tile_cost =>
+                            <TileCost gem_id={tile_cost.gem_id}>{tile_cost.count}</TileCost>
+                        )}
+                    </div>
+
+                </div>
+            );
     }
 }
 

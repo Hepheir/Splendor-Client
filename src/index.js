@@ -3,14 +3,16 @@ import ReactDOM from 'react-dom';
 
 import reportWebVitals from './reportWebVitals';
 
+import Game from './pages/Game';
 import Main from './pages/Main';
 
 
 ReactDOM.render(
-  <React.StrictMode>
-    <Main/>
-  </React.StrictMode>,
-  document.getElementById('root')
+    <React.StrictMode>
+        <Game userId={1}>{1}</Game>
+        {/* <Main/> */}
+    </React.StrictMode>,
+    document.getElementById('root')
 );
 
 // If you want to start measuring performance in your app, pass a function

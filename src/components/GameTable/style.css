@@ -1,0 +1,21 @@
+:root {
+    --action-frame-height: 180px;
+    --bottom-shelf-height: 100px;
+    --side-shelves-width: 72px;
+}
+
+.game-table {
+    width: 100%;
+    height: 100%;
+
+    overflow: hidden;
+
+    position: relative;
+}
+.game-table::-webkit-scrollbar {
+    display: none;
+}
+
+.game-table-container {
+    padding-bottom: var(--action-frame-height);
+}

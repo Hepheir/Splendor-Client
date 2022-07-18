@@ -22,12 +22,9 @@ class Hand extends React.Component {
 
 
     componentDidMount() {
-        try {
-            rest('/hand', {}, 'GET').then(json => this.setState(json));
-        }
-        catch(e) {
-            console.log(e);
-        }
+        rest('/hand', {}, 'GET')
+            .then(json => this.setState(json))
+            .catch(e => console.log(e));
     }
 
 
