@@ -1,7 +1,7 @@
 import Sprite from "./Sprite";
 import {staticFile} from "../../utils/path";
 
-class PrestigePointSprite extends Sprite {
+class NumberSprite extends Sprite {
     private static isOverRange(value: number): boolean {
         return value >= 10;
     }
@@ -27,10 +27,10 @@ class PrestigePointSprite extends Sprite {
             },
             3,
             10,
-            PrestigePointSprite.convertToRow(value),
-            PrestigePointSprite.convertToColumn(value),
+            NumberSprite.convertToRow(value),
+            NumberSprite.convertToColumn(value),
         );
     }
 }
 
-export default PrestigePointSprite;
+export default NumberSprite;
