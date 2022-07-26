@@ -8,7 +8,7 @@ class CardCoverSprite extends Sprite {
         3: 2,
     }
 
-    private static convertToColumn(level: Level): number {
+    private static convertToX(level: Level): number {
         return CardCoverSprite.COLUMN_OF[level];
     }
 
@@ -22,7 +22,7 @@ class CardCoverSprite extends Sprite {
             6,
             5,
             5,
-            CardCoverSprite.convertToColumn(level),
+            CardCoverSprite.convertToX(level),
         );
     }
 }

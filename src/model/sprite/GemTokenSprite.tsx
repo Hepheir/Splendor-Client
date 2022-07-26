@@ -13,7 +13,7 @@ class GemTokenSprite extends Sprite {
         yellow: 5,
     }
 
-    private static convertToColumn(color: Color): number {
+    private static convertToX(color: Color): number {
         return GemTokenSprite.COLUMN_OF[color];
     }
 
@@ -27,7 +27,7 @@ class GemTokenSprite extends Sprite {
             1,
             6,
             0,
-            GemTokenSprite.convertToColumn(color),
+            GemTokenSprite.convertToX(color),
         );
     }
 }

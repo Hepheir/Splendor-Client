@@ -12,7 +12,7 @@ class BonusIconSprite extends Sprite {
         red: 4,
     }
 
-    private static convertToColumn(bonusIcon: BonusIcon): number {
+    private static convertToX(bonusIcon: BonusIcon): number {
         return BonusIconSprite.COLUMN_OF[bonusIcon];
     }
 
@@ -26,7 +26,7 @@ class BonusIconSprite extends Sprite {
             3,
             10,
             0,
-            BonusIconSprite.convertToColumn(bonusIcon),
+            BonusIconSprite.convertToX(bonusIcon),
         );
     }
 }

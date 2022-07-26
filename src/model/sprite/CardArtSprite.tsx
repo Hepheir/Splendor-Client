@@ -13,11 +13,11 @@ class CardArtSprite extends Sprite {
         white: 4,
     }
 
-    private static convertToRow(color: Color): number {
+    private static convertToY(color: Color): number {
         return CardArtSprite.ROW_OF[color];
     }
 
-    private static convertToColumn(arg: Arg): number {
+    private static convertToX(arg: Arg): number {
         return arg;
     }
 
@@ -30,8 +30,8 @@ class CardArtSprite extends Sprite {
             },
             6,
             5,
-            CardArtSprite.convertToRow(color),
-            CardArtSprite.convertToColumn(arg),
+            CardArtSprite.convertToY(color),
+            CardArtSprite.convertToX(arg),
         );
     }
 }

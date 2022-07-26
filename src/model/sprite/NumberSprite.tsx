@@ -10,11 +10,11 @@ class NumberSprite extends Sprite {
         return value <= 0;
     }
 
-    private static convertToRow(value: number): number {
+    private static convertToY(value: number): number {
         return this.isUnderRange(value) ? 0 : 2;
     }
 
-    private static convertToColumn(value: number): number {
+    private static convertToX(value: number): number {
         return (this.isUnderRange(value) || this.isOverRange(value)) ? 9 : value - 1;
     }
 
@@ -27,8 +27,8 @@ class NumberSprite extends Sprite {
             },
             3,
             10,
-            NumberSprite.convertToRow(value),
-            NumberSprite.convertToColumn(value),
+            NumberSprite.convertToY(value),
+            NumberSprite.convertToX(value),
         );
     }
 }

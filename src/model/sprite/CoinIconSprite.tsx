@@ -12,7 +12,7 @@ class CoinIconSprite extends Sprite {
         red: 4,
     }
 
-    private static convertToColumn(coinIcon: CoinIcon): number {
+    private static convertToX(coinIcon: CoinIcon): number {
         return CoinIconSprite.COLUMN_OF[coinIcon];
     }
 
@@ -26,7 +26,7 @@ class CoinIconSprite extends Sprite {
             3,
             10,
             1,
-            CoinIconSprite.convertToColumn(coinIcon),
+            CoinIconSprite.convertToX(coinIcon),
         );
     }
 }
